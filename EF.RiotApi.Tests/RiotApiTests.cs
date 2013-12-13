@@ -1,6 +1,9 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using EF.RiotApi.Client;
+using System.Collections.Generic;
+using EF.RiotApi.Dto;
+using EF.RiotApi.WebRequestResults;
 
 namespace EF.RiotApi.Tests
 {
@@ -21,42 +24,36 @@ namespace EF.RiotApi.Tests
         [TestMethod]
         public void TestGetChampions()
         {
-            var champs = RiotWeb.API.GetChampions();
-            Assert.IsTrue(champs.Count > 0);
+            var getChampsResult = RiotWeb.API.GetChampions();
+            Assert.IsTrue(getChampsResult.Champions.Count > 0);
         }
 
         [TestMethod]
         public void TestGetChampionsAsync()
         {
-            var champs = RiotWeb.API.GetChampionsAsync();
-            Assert.IsTrue(champs.Result.Count > 0);
+            var getChampsResult = RiotWeb.API.GetChampionsAsync();
+            Assert.IsTrue(getChampsResult.Result.Champions.Count > 0);
+        }
+
+        [TestMethod]
+        public void TestGetRecentGames()
+        {
+            var getRecentGamesresult = RiotWeb.API.GetGamesBySummonerAsync(32144);
+            Assert.IsTrue(getRecentGamesresult.Result.Games.Count > 0);
+        }
+        
+        [TestMethod]
+        public void TestGetLeagues()
+        {
+            var getLeagues = RiotWeb.API.GetLeagueBySummonerAsync(32144);
+            var result = getLeagues.Result;
+            Assert.IsTrue(result.Keys.Count > 0);
         }
 
         [TestMethod]
         public void TestCaching()
         {
-            var champs = RiotWeb.API.GetChampionsAsync();
-            Assert.IsTrue(champs.Result.Count > 0);
-            champs = RiotWeb.API.GetChampionsAsync();
-            Assert.IsTrue(champs.Result.Count > 0);
-            champs = RiotWeb.API.GetChampionsAsync();
-            Assert.IsTrue(champs.Result.Count > 0);
-            champs = RiotWeb.API.GetChampionsAsync();
-            Assert.IsTrue(champs.Result.Count > 0);
-            champs = RiotWeb.API.GetChampionsAsync();
-            Assert.IsTrue(champs.Result.Count > 0);
-            champs = RiotWeb.API.GetChampionsAsync();
-            Assert.IsTrue(champs.Result.Count > 0);
-            champs = RiotWeb.API.GetChampionsAsync();
-            Assert.IsTrue(champs.Result.Count > 0);
-            champs = RiotWeb.API.GetChampionsAsync();
-            Assert.IsTrue(champs.Result.Count > 0);
-            champs = RiotWeb.API.GetChampionsAsync();
-            Assert.IsTrue(champs.Result.Count > 0);
-            champs = RiotWeb.API.GetChampionsAsync();
-            Assert.IsTrue(champs.Result.Count > 0);
-            champs = RiotWeb.API.GetChampionsAsync();
-            Assert.IsTrue(champs.Result.Count > 0);
+
         }
     }
 }

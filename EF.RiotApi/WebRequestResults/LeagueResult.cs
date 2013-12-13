@@ -8,9 +8,5 @@ using System.Threading.Tasks;
 
 namespace EF.RiotApi.WebRequestResults
 {
-    public class ChampionsResult 
-    {
-        [JsonProperty("champions")]
-        public List<ChampionDto> Champions { get; set; }
-    }
+    public class LeagueResult : Dictionary<string, LeagueDto> { }
 }
