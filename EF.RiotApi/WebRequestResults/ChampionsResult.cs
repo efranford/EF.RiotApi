@@ -1,4 +1,5 @@
 ﻿using EF.RiotApi.Dto;
+using EF.RiotApi.Dto.Champion;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;

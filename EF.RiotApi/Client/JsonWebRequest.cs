@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace EF.RiotApi.Client
 {
-    public class RiotWebRequest<T> where T : new()
+    public class JsonWebRequest<T> where T : new()
     {
         public static async Task<T> CreateRequestAsync(string url)
         {

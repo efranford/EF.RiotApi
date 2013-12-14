@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EF.RiotApi.Dto
+namespace EF.RiotApi.Dto.Game
 {
     public class RecentGamesDto
     {

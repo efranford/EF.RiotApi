@@ -51,9 +51,18 @@ namespace EF.RiotApi.Tests
         }
 
         [TestMethod]
-        public void TestCaching()
+        public void TestGetPlayerStatsSummary()
         {
+            var getRecentGamesresult = RiotWeb.API.GetPlayerStatsSummary(32144);
+            Assert.IsTrue(getRecentGamesresult.PlayerStatSummaries.Count > 0);
+        }
 
+        [TestMethod]
+        public void TestGetPlayerStatsSummaryAsync()
+        {
+            var getRecentGamesresult = RiotWeb.API.GetPlayerStatsSummaryAsync(32144);
+            var result = getRecentGamesresult.Result;
+            Assert.IsTrue(result.PlayerStatSummaries.Count > 0);
         }
     }
 }

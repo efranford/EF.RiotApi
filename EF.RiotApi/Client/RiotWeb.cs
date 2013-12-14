@@ -1,5 +1,6 @@
 ﻿using EF.RiotApi.Caching;
 using EF.RiotApi.Dto;
+using EF.RiotApi.Helpers;
 using EF.RiotApi.WebRequestResults;
 using Newtonsoft.Json;
 using System;
@@ -55,7 +56,7 @@ namespace EF.RiotApi.Client
         { 
             get
             {
-                return GetApiUrl();
+                return RiotApiHelper.GetApiUrl();
             }
         }
         public string ApiUrl { get; set; }
@@ -73,7 +74,7 @@ namespace EF.RiotApi.Client
                 return new ChampionsResult { Champions = ApiCache.Instance.Champions };
             }
 
-            var championsRequest = RiotWebRequest<ChampionsResult>.CreateRequestAsync(GetChampionUri(false));
+            var championsRequest = JsonWebRequest<ChampionsResult>.CreateRequestAsync(RiotApiHelper.GetApiUri(api:"chapmion", freeToPlay:freeToPlay));
             var result = await championsRequest;
 
             if (ApiCache.Instance.CachingEnabled)
@@ -90,7 +91,7 @@ namespace EF.RiotApi.Client
                 return new ChampionsResult { Champions = ApiCache.Instance.Champions };
             }
 
-            var result = RiotWebRequest<ChampionsResult>.CreateRequest(GetChampionUri(false));
+            var result = JsonWebRequest<ChampionsResult>.CreateRequest(RiotApiHelper.GetApiUri(api: "chapmion", freeToPlay: freeToPlay));
 
             if (ApiCache.Instance.CachingEnabled)
             {
@@ -105,14 +106,14 @@ namespace EF.RiotApi.Client
 
         public async Task<RecentGamesResult> GetGamesBySummonerAsync(long summonerId, string region = null)
         {
-            var recentGamesResult = RiotWebRequest<RecentGamesResult>.CreateRequestAsync(GetBySummonerUri("game", region, summonerId));
+            var recentGamesResult = JsonWebRequest<RecentGamesResult>.CreateRequestAsync(RiotApiHelper.GetApiUri(api:"game", region:region, summonerId:summonerId));
             var result = await recentGamesResult;
             return result;
         }
 
         public RecentGamesResult GetGamesBySummoner(long summonerId, string region = null)
         {
-            var result = RiotWebRequest<RecentGamesResult>.CreateRequest(GetBySummonerUri("game", region, summonerId));
+            var result = JsonWebRequest<RecentGamesResult>.CreateRequest(RiotApiHelper.GetApiUri(api: "game", region: region, summonerId: summonerId));
             return result;
         }
 
@@ -122,47 +123,33 @@ namespace EF.RiotApi.Client
 
         public async Task<LeagueResult> GetLeagueBySummonerAsync(long summonerId, string region = null)
         {
-            var recentGamesResult = RiotWebRequest<LeagueResult>.CreateRequestAsync(GetBySummonerUri("league", region, summonerId, "v2.1"));
+            var recentGamesResult = JsonWebRequest<LeagueResult>.CreateRequestAsync(RiotApiHelper.GetApiUri(api:"league", region:region, summonerId:summonerId, version:"v2.1"));
             var result = await recentGamesResult;
             return result;
         }
 
         public LeagueResult GetLeagueBySummoner(long summonerId, string region = null)
         {
-            var result = RiotWebRequest<LeagueResult>.CreateRequest(GetBySummonerUri("league", region, summonerId, "v2.1"));
+            var result = JsonWebRequest<LeagueResult>.CreateRequest(RiotApiHelper.GetApiUri(api:"league", region:region, summonerId:summonerId, version:"v2.1"));
             return result;
         }
 
         #endregion
 
-        #region Helpers
+        #region Stats
 
-        #region Formatters
-
-        public string GetApiUrl(string region = null, string version = null)
+        public async Task<PlayerStatsSummaryResult> GetPlayerStatsSummaryAsync(long summonerId, string region = null, string season = null)
         {
-            return string.Format("{0}/{1}/{2}", ApiUrl, region ?? ApiRegion, version ?? ApiVerision);
+            var recentGamesResult = JsonWebRequest<PlayerStatsSummaryResult>.CreateRequestAsync(RiotApiHelper.GetApiUri(api:"stats", region:region, summonerId:summonerId, season:season));
+            var result = await recentGamesResult;
+            return result;
         }
 
-        private string GetBySummonerUri(string api, string region, long summonerId, string version = null)
+        public PlayerStatsSummaryResult GetPlayerStatsSummary(long summonerId, string region = null, string season = null)
         {
-            switch(api)
-            {
-                case "league":
-                    // I think riot means to have /lol in this url, but for now it's not there..
-                    return string.Format("{0}/{1}/{2}/{3}/by-summoner/{4}?api_key={5}", ApiUrl.Replace("/lol",""), region ?? ApiRegion, version ?? ApiVerision, api, summonerId, ApiKey);
-                case "game":
-                    return string.Format("{0}/{1}/{2}/{3}/by-summoner/{4}/recent?api_key={5}", ApiUrl, region ?? ApiRegion, version ?? ApiVerision, api, summonerId, ApiKey);
-            }
-            return string.Empty;
+            var result = JsonWebRequest<PlayerStatsSummaryResult>.CreateRequest(RiotApiHelper.GetApiUri(api: "stats", region: region, summonerId: summonerId, season: season));
+            return result;
         }
-   
-        public string GetChampionUri(bool freeToPlay)
-        {
-            return (freeToPlay) ? string.Format("{0}/champion?api_key={1}&freeToPlay=true", ApiLocation, ApiKey) : string.Format("{0}/champion?api_key={1}", ApiLocation, ApiKey);
-        }
-
-        #endregion
 
         #endregion
     }
