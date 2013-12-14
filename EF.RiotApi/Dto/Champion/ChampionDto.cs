@@ -13,66 +13,66 @@ namespace EF.RiotApi.Dto.Champion
         /// Champion ID
         /// </summary>
         [JsonProperty("id")]
-        long Id { get; set; }
+        public long Id { get; set; }
 
         /// <summary>
         /// Indicates if the champion is active.
         /// </summary>
         [JsonProperty("active")]
-        bool Active { get; set; }
+        public bool Active { get; set; }
 
         /// <summary>
         /// Champion attack rank.
         /// </summary>
         [JsonProperty("attackRank")]
-        int AttackRank { get; set; }
+        public int AttackRank { get; set; }
 
         /// <summary>
         /// Bot enabled flag (for custom games).
         /// </summary>
         [JsonProperty("botEnabled")]
-        bool BotEnabled { get; set; }
+        public bool BotEnabled { get; set; }
 
         /// <summary>
         /// Bot Match Made enabled flag (for Co-op vs. AI games).
         /// </summary>
         [JsonProperty("botMmEnabled")]
-        bool BotMmEnabled { get; set; }
+        public bool BotMmEnabled { get; set; }
 
         /// <summary>
         /// Champion defense rank.
         /// </summary>
         [JsonProperty("defenseRank")]
-        int DefenseRank { get; set; }
+        public int DefenseRank { get; set; }
 
         /// <summary>
         /// Champion difficulty rank.
         /// </summary>
         [JsonProperty("difficultyRank")]
-        int DifficultyRank { get; set; }
+        public int DifficultyRank { get; set; }
 
         /// <summary>
         /// Indicates if the champion is free to play. Free to play champions are rotated periodically.
         /// </summary>
         [JsonProperty("freeToPlay")]
-        bool FreeToPlay { get; set; }
+        public bool FreeToPlay { get; set; }
 
         /// <summary>
         /// Champion magic rank.
         /// </summary>
         [JsonProperty("magicRank")]
-        int MagicRank { get; set; }
+        public int MagicRank { get; set; }
 
         /// <summary>
         /// Champion name.
         /// </summary>
         [JsonProperty("name")]
-        string Name { get; set; }
+        public string Name { get; set; }
 
         /// <summary>
         /// Ranked play enabled flag.
         /// </summary>
         [JsonProperty("rankedPlayEnabled")]
-        bool RankedPlayEnabled { get; set; }
+        public bool RankedPlayEnabled { get; set; }
     }
 }

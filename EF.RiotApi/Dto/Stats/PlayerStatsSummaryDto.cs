@@ -13,25 +13,25 @@ namespace EF.RiotApi.Dto.Stats
         /// List of aggregated stats.
         /// </summary>
         [JsonProperty("aggregatedStats")]
-        List<AggregatedStatDto> AggregatedStats { get; set; }
+        public List<AggregatedStatDto> AggregatedStats { get; set; }
 
         /// <summary>
         /// Number of losses for this queue type. Returned for ranked queue types only.
         /// </summary>
         [JsonProperty("losses")]
-        int Losses { get; set; }
+        public int Losses { get; set; }
 
         /// <summary>
         /// Date stats were last modified specified as epoch milliseconds.
         /// </summary>
         [JsonProperty("modifyDate")]
-        long ModifyDate { get; set; }
+        public long ModifyDate { get; set; }
 
         /// <summary>
         /// Human readable string representing date stats were last modified.
         /// </summary>
         [JsonProperty("modifyDateStr")]
-        string ModifyDateStr { get; set; }
+        public string ModifyDateStr { get; set; }
 
         /// <summary>
         /// Player stats summary type.
@@ -48,13 +48,12 @@ namespace EF.RiotApi.Dto.Stats
         /// Unranked3x3)
         /// </summary>
         [JsonProperty("playerStatSummaryType")]
-        string PlayerStatSummaryType { get; set; }
+        public string PlayerStatSummaryType { get; set; }
 
         /// <summary>
         /// Number of wins for this queue type.
         /// </summary>
         [JsonProperty("wins")]
-        int Wins { get; set; }
-
+        public int Wins { get; set; }
     }
 }

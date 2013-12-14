@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="GetSummonerRunes.json" />
     <None Include="LeagueResult.json" />
     <None Include="RecentGamesResulr.json" />
     <None Include="SummonerByName.json" />

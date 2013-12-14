@@ -10,51 +10,51 @@ namespace EF.RiotApi.Dto.League
     public class LeagueDtoEntry
     {
         [JsonProperty("isFreshBlood")]
-        bool IsFreshBlood { get; set; }
+        public bool IsFreshBlood { get; set; }
 
         [JsonProperty("isHotStreak")]
-        bool IsHotStreak { get; set; }
+        public bool IsHotStreak { get; set; }
 
         [JsonProperty("isInactive")]
-        bool IsInactive { get; set; }
+        public bool IsInactive { get; set; }
 
         [JsonProperty("isVeteran")]
-        bool IsVeteran { get; set; }
+        public bool IsVeteran { get; set; }
 
         [JsonProperty("lastPlayed")]
-        long LastPlayed { get; set; }
+        public long LastPlayed { get; set; }
 
         [JsonProperty("leagueName")]
-        string LeagueName { get; set; }
+        public string LeagueName { get; set; }
 
         [JsonProperty("leaguePoints")]
-        int LeaguePoints { get; set; }
+        public int LeaguePoints { get; set; }
 
         [JsonProperty("losses")]
-        int Losses { get; set; }
+        public int Losses { get; set; }
 
         [JsonProperty("miniSeries")]
-        MiniSeriesDto MiniSeries { get; set; }
+        public MiniSeriesDto MiniSeries { get; set; }
 
         [JsonProperty("playerOrTeamId")]
-        string PlayerOrTeamId { get; set; }
+        public string PlayerOrTeamId { get; set; }
 
         [JsonProperty("playerOrTeamName")]
-        string PlayerOrTeamName { get; set; }
+        public string PlayerOrTeamName { get; set; }
 
         [JsonProperty("queueType")]
-        string QueueType { get; set; }
+        public string QueueType { get; set; }
 
         [JsonProperty("rank")]
-        string Rank { get; set; }
+        public string Rank { get; set; }
 
         [JsonProperty("tier")]
-        string Tier { get; set; }
+        public string Tier { get; set; }
 
         [JsonProperty("timeUntilDecay")]
-        long TimeUntilDecay { get; set; }
+        public long TimeUntilDecay { get; set; }
 
         [JsonProperty("wins")]
-        int Wins { get; set; }
+        public int Wins { get; set; }
     }
 }

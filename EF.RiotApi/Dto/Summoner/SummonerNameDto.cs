@@ -5,24 +5,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EF.RiotApi.Dto.Stats
+namespace EF.RiotApi.Dto.Summoner
 {
-    public class AggregatedStatDto
+    public class SummonerNameDto
     {
         /// <summary>
-        /// Aggregated stat value.
-        /// </summary>
-        [JsonProperty("count")]
-        public int Count { get; set; }
-        
-        /// <summary>
-        /// Aggregated stat type ID.
+        /// Summoner ID.
         /// </summary>
         [JsonProperty("id")]
-        public int Id { get; set; }
-        
+        public long Id { get; set; }
+
         /// <summary>
-        /// Aggregated stat type name.
+        /// Summoner name
         /// </summary>
         [JsonProperty("name")]
         public string Name { get; set; }

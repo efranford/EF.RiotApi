@@ -1,0 +1,5545 @@
+﻿{
+   "pages": [
+      {
+         "id": 1103307,
+         "slots": [
+            {
+               "runeSlotId": 28,
+               "rune": {
+                  "id": 5335,
+                  "description": "+2.25 attack damage",
+                  "name": "Greater Quintessence of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 29,
+               "rune": {
+                  "id": 5412,
+                  "description": "+2% Lifesteal.",
+                  "name": "Greater Quintessence of Life Steal",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 30,
+               "rune": {
+                  "id": 5412,
+                  "description": "+2% Lifesteal.",
+                  "name": "Greater Quintessence of Life Steal",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 2,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 3,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 1,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 8,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 9,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 6,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 7,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 4,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 5,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 22,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 23,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 20,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 21,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 19,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 18,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 17,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 16,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 27,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 15,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 14,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 26,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 25,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 13,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 24,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 12,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 11,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 10,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            }
+         ],
+         "name": "AD",
+         "current": true
+      },
+      {
+         "id": 1103308,
+         "slots": [
+            {
+               "runeSlotId": 8,
+               "rune": {
+                  "id": 5253,
+                  "description": "+1.28 armor penetration",
+                  "name": "Greater Mark of Armor Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 9,
+               "rune": {
+                  "id": 5253,
+                  "description": "+1.28 armor penetration",
+                  "name": "Greater Mark of Armor Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 4,
+               "rune": {
+                  "id": 5253,
+                  "description": "+1.28 armor penetration",
+                  "name": "Greater Mark of Armor Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 29,
+               "rune": {
+                  "id": 5412,
+                  "description": "+2% Lifesteal.",
+                  "name": "Greater Quintessence of Life Steal",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 5,
+               "rune": {
+                  "id": 5253,
+                  "description": "+1.28 armor penetration",
+                  "name": "Greater Mark of Armor Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 30,
+               "rune": {
+                  "id": 5412,
+                  "description": "+2% Lifesteal.",
+                  "name": "Greater Quintessence of Life Steal",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 6,
+               "rune": {
+                  "id": 5253,
+                  "description": "+1.28 armor penetration",
+                  "name": "Greater Mark of Armor Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 7,
+               "rune": {
+                  "id": 5253,
+                  "description": "+1.28 armor penetration",
+                  "name": "Greater Mark of Armor Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 21,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 22,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 23,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 24,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 28,
+               "rune": {
+                  "id": 5343,
+                  "description": "+2.56 armor penetration",
+                  "name": "Greater Quintessence of Armor Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 19,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 20,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 26,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 25,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 27,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 18,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 17,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 16,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 15,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 14,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 13,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 12,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 11,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 3,
+               "rune": {
+                  "id": 5253,
+                  "description": "+1.28 armor penetration",
+                  "name": "Greater Mark of Armor Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 10,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 2,
+               "rune": {
+                  "id": 5253,
+                  "description": "+1.28 armor penetration",
+                  "name": "Greater Mark of Armor Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 1,
+               "rune": {
+                  "id": 5253,
+                  "description": "+1.28 armor penetration",
+                  "name": "Greater Mark of Armor Penetration",
+                  "tier": 3
+               }
+            }
+         ],
+         "name": "AD Armor Pen",
+         "current": false
+      },
+      {
+         "id": 4162624,
+         "slots": [
+            {
+               "runeSlotId": 2,
+               "rune": {
+                  "id": 5273,
+                  "description": "+0.87 magic penetration",
+                  "name": "Greater Mark of Magic Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 3,
+               "rune": {
+                  "id": 5273,
+                  "description": "+0.87 magic penetration",
+                  "name": "Greater Mark of Magic Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 1,
+               "rune": {
+                  "id": 5273,
+                  "description": "+0.87 magic penetration",
+                  "name": "Greater Mark of Magic Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 6,
+               "rune": {
+                  "id": 5273,
+                  "description": "+0.87 magic penetration",
+                  "name": "Greater Mark of Magic Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 7,
+               "rune": {
+                  "id": 5273,
+                  "description": "+0.87 magic penetration",
+                  "name": "Greater Mark of Magic Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 4,
+               "rune": {
+                  "id": 5273,
+                  "description": "+0.87 magic penetration",
+                  "name": "Greater Mark of Magic Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 5,
+               "rune": {
+                  "id": 5273,
+                  "description": "+0.87 magic penetration",
+                  "name": "Greater Mark of Magic Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 9,
+               "rune": {
+                  "id": 5273,
+                  "description": "+0.87 magic penetration",
+                  "name": "Greater Mark of Magic Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 8,
+               "rune": {
+                  "id": 5273,
+                  "description": "+0.87 magic penetration",
+                  "name": "Greater Mark of Magic Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 22,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 30,
+               "rune": {
+                  "id": 5357,
+                  "description": "+4.95 ability power",
+                  "name": "Greater Quintessence of Ability Power",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 23,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 28,
+               "rune": {
+                  "id": 5357,
+                  "description": "+4.95 ability power",
+                  "name": "Greater Quintessence of Ability Power",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 20,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 29,
+               "rune": {
+                  "id": 5357,
+                  "description": "+4.95 ability power",
+                  "name": "Greater Quintessence of Ability Power",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 21,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 19,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 18,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 17,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 16,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 15,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 27,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 14,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 26,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 25,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 13,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 24,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 12,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 11,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 10,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            }
+         ],
+         "name": "AP",
+         "current": false
+      },
+      {
+         "id": 5518105,
+         "slots": [
+            {
+               "runeSlotId": 29,
+               "rune": {
+                  "id": 5335,
+                  "description": "+2.25 attack damage",
+                  "name": "Greater Quintessence of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 28,
+               "rune": {
+                  "id": 5335,
+                  "description": "+2.25 attack damage",
+                  "name": "Greater Quintessence of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 22,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 23,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 24,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 30,
+               "rune": {
+                  "id": 5335,
+                  "description": "+2.25 attack damage",
+                  "name": "Greater Quintessence of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 26,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 25,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 27,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 9,
+               "rune": {
+                  "id": 5402,
+                  "description": "+0.9 Armor Penetration / +0.62 Magic Penetration",
+                  "name": "Greater Mark of Hybrid Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 20,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 21,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 19,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 18,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 17,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 16,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 15,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 14,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 13,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 12,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 7,
+               "rune": {
+                  "id": 5402,
+                  "description": "+0.9 Armor Penetration / +0.62 Magic Penetration",
+                  "name": "Greater Mark of Hybrid Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 11,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 8,
+               "rune": {
+                  "id": 5402,
+                  "description": "+0.9 Armor Penetration / +0.62 Magic Penetration",
+                  "name": "Greater Mark of Hybrid Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 10,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 5,
+               "rune": {
+                  "id": 5402,
+                  "description": "+0.9 Armor Penetration / +0.62 Magic Penetration",
+                  "name": "Greater Mark of Hybrid Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 6,
+               "rune": {
+                  "id": 5402,
+                  "description": "+0.9 Armor Penetration / +0.62 Magic Penetration",
+                  "name": "Greater Mark of Hybrid Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 3,
+               "rune": {
+                  "id": 5402,
+                  "description": "+0.9 Armor Penetration / +0.62 Magic Penetration",
+                  "name": "Greater Mark of Hybrid Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 4,
+               "rune": {
+                  "id": 5402,
+                  "description": "+0.9 Armor Penetration / +0.62 Magic Penetration",
+                  "name": "Greater Mark of Hybrid Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 1,
+               "rune": {
+                  "id": 5402,
+                  "description": "+0.9 Armor Penetration / +0.62 Magic Penetration",
+                  "name": "Greater Mark of Hybrid Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 2,
+               "rune": {
+                  "id": 5402,
+                  "description": "+0.9 Armor Penetration / +0.62 Magic Penetration",
+                  "name": "Greater Mark of Hybrid Penetration",
+                  "tier": 3
+               }
+            }
+         ],
+         "name": "smnoosh",
+         "current": false
+      },
+      {
+         "id": 18987115,
+         "slots": [
+            {
+               "runeSlotId": 8,
+               "rune": {
+                  "id": 5257,
+                  "description": "+0.91 armor",
+                  "name": "Greater Mark of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 9,
+               "rune": {
+                  "id": 5257,
+                  "description": "+0.91 armor",
+                  "name": "Greater Mark of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 30,
+               "rune": {
+                  "id": 5367,
+                  "description": "+1 gold / 10 sec.",
+                  "name": "Greater Quintessence of Gold",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 29,
+               "rune": {
+                  "id": 5367,
+                  "description": "+1 gold / 10 sec.",
+                  "name": "Greater Quintessence of Gold",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 28,
+               "rune": {
+                  "id": 5367,
+                  "description": "+1 gold / 10 sec.",
+                  "name": "Greater Quintessence of Gold",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 20,
+               "rune": {
+                  "id": 5287,
+                  "description": "+0.7 armor",
+                  "name": "Greater Glyph of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 21,
+               "rune": {
+                  "id": 5287,
+                  "description": "+0.7 armor",
+                  "name": "Greater Glyph of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 19,
+               "rune": {
+                  "id": 5287,
+                  "description": "+0.7 armor",
+                  "name": "Greater Glyph of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 25,
+               "rune": {
+                  "id": 5287,
+                  "description": "+0.7 armor",
+                  "name": "Greater Glyph of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 7,
+               "rune": {
+                  "id": 5257,
+                  "description": "+0.91 armor",
+                  "name": "Greater Mark of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 24,
+               "rune": {
+                  "id": 5287,
+                  "description": "+0.7 armor",
+                  "name": "Greater Glyph of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 6,
+               "rune": {
+                  "id": 5257,
+                  "description": "+0.91 armor",
+                  "name": "Greater Mark of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 23,
+               "rune": {
+                  "id": 5287,
+                  "description": "+0.7 armor",
+                  "name": "Greater Glyph of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 5,
+               "rune": {
+                  "id": 5257,
+                  "description": "+0.91 armor",
+                  "name": "Greater Mark of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 22,
+               "rune": {
+                  "id": 5287,
+                  "description": "+0.7 armor",
+                  "name": "Greater Glyph of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 4,
+               "rune": {
+                  "id": 5257,
+                  "description": "+0.91 armor",
+                  "name": "Greater Mark of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 3,
+               "rune": {
+                  "id": 5257,
+                  "description": "+0.91 armor",
+                  "name": "Greater Mark of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 2,
+               "rune": {
+                  "id": 5257,
+                  "description": "+0.91 armor",
+                  "name": "Greater Mark of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 18,
+               "rune": {
+                  "id": 5403,
+                  "description": "+0.25 gold / 10 sec.",
+                  "name": "Greater Seal of Gold",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 1,
+               "rune": {
+                  "id": 5257,
+                  "description": "+0.91 armor",
+                  "name": "Greater Mark of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 27,
+               "rune": {
+                  "id": 5287,
+                  "description": "+0.7 armor",
+                  "name": "Greater Glyph of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 26,
+               "rune": {
+                  "id": 5287,
+                  "description": "+0.7 armor",
+                  "name": "Greater Glyph of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 16,
+               "rune": {
+                  "id": 5403,
+                  "description": "+0.25 gold / 10 sec.",
+                  "name": "Greater Seal of Gold",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 17,
+               "rune": {
+                  "id": 5403,
+                  "description": "+0.25 gold / 10 sec.",
+                  "name": "Greater Seal of Gold",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 14,
+               "rune": {
+                  "id": 5403,
+                  "description": "+0.25 gold / 10 sec.",
+                  "name": "Greater Seal of Gold",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 15,
+               "rune": {
+                  "id": 5403,
+                  "description": "+0.25 gold / 10 sec.",
+                  "name": "Greater Seal of Gold",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 12,
+               "rune": {
+                  "id": 5403,
+                  "description": "+0.25 gold / 10 sec.",
+                  "name": "Greater Seal of Gold",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 13,
+               "rune": {
+                  "id": 5403,
+                  "description": "+0.25 gold / 10 sec.",
+                  "name": "Greater Seal of Gold",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 10,
+               "rune": {
+                  "id": 5403,
+                  "description": "+0.25 gold / 10 sec.",
+                  "name": "Greater Seal of Gold",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 11,
+               "rune": {
+                  "id": 5403,
+                  "description": "+0.25 gold / 10 sec.",
+                  "name": "Greater Seal of Gold",
+                  "tier": 3
+               }
+            }
+         ],
+         "name": "$$",
+         "current": false
+      },
+      {
+         "id": 18997111,
+         "slots": [
+            {
+               "runeSlotId": 21,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 22,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 23,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 24,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 8,
+               "rune": {
+                  "id": 5257,
+                  "description": "+0.91 armor",
+                  "name": "Greater Mark of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 9,
+               "rune": {
+                  "id": 5257,
+                  "description": "+0.91 armor",
+                  "name": "Greater Mark of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 19,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 20,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 26,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 25,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 27,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 29,
+               "rune": {
+                  "id": 5365,
+                  "description": "+1.5% movement speed",
+                  "name": "Greater Quintessence of Movement Speed",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 28,
+               "rune": {
+                  "id": 5365,
+                  "description": "+1.5% movement speed",
+                  "name": "Greater Quintessence of Movement Speed",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 30,
+               "rune": {
+                  "id": 5365,
+                  "description": "+1.5% movement speed",
+                  "name": "Greater Quintessence of Movement Speed",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 7,
+               "rune": {
+                  "id": 5257,
+                  "description": "+0.91 armor",
+                  "name": "Greater Mark of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 6,
+               "rune": {
+                  "id": 5257,
+                  "description": "+0.91 armor",
+                  "name": "Greater Mark of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 18,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 5,
+               "rune": {
+                  "id": 5257,
+                  "description": "+0.91 armor",
+                  "name": "Greater Mark of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 17,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 16,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 4,
+               "rune": {
+                  "id": 5257,
+                  "description": "+0.91 armor",
+                  "name": "Greater Mark of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 15,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 3,
+               "rune": {
+                  "id": 5257,
+                  "description": "+0.91 armor",
+                  "name": "Greater Mark of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 14,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 2,
+               "rune": {
+                  "id": 5257,
+                  "description": "+0.91 armor",
+                  "name": "Greater Mark of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 13,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 1,
+               "rune": {
+                  "id": 5257,
+                  "description": "+0.91 armor",
+                  "name": "Greater Mark of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 12,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 11,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 10,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            }
+         ],
+         "name": "Jungle Speed Tank",
+         "current": false
+      },
+      {
+         "id": 18997112,
+         "slots": [
+            {
+               "runeSlotId": 8,
+               "rune": {
+                  "id": 5257,
+                  "description": "+0.91 armor",
+                  "name": "Greater Mark of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 9,
+               "rune": {
+                  "id": 5257,
+                  "description": "+0.91 armor",
+                  "name": "Greater Mark of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 29,
+               "rune": {
+                  "id": 5347,
+                  "description": "+4.26 armor",
+                  "name": "Greater Quintessence of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 30,
+               "rune": {
+                  "id": 5347,
+                  "description": "+4.26 armor",
+                  "name": "Greater Quintessence of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 22,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 23,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 20,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 21,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 28,
+               "rune": {
+                  "id": 5367,
+                  "description": "+1 gold / 10 sec.",
+                  "name": "Greater Quintessence of Gold",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 19,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 7,
+               "rune": {
+                  "id": 5257,
+                  "description": "+0.91 armor",
+                  "name": "Greater Mark of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 25,
+               "rune": {
+                  "id": 5287,
+                  "description": "+0.7 armor",
+                  "name": "Greater Glyph of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 6,
+               "rune": {
+                  "id": 5257,
+                  "description": "+0.91 armor",
+                  "name": "Greater Mark of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 18,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 5,
+               "rune": {
+                  "id": 5257,
+                  "description": "+0.91 armor",
+                  "name": "Greater Mark of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 17,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 4,
+               "rune": {
+                  "id": 5257,
+                  "description": "+0.91 armor",
+                  "name": "Greater Mark of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 16,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 1,
+               "rune": {
+                  "id": 5259,
+                  "description": "+0.77 magic resist",
+                  "name": "Greater Mark of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 27,
+               "rune": {
+                  "id": 5287,
+                  "description": "+0.7 armor",
+                  "name": "Greater Glyph of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 24,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 26,
+               "rune": {
+                  "id": 5287,
+                  "description": "+0.7 armor",
+                  "name": "Greater Glyph of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 2,
+               "rune": {
+                  "id": 5259,
+                  "description": "+0.77 magic resist",
+                  "name": "Greater Mark of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 14,
+               "rune": {
+                  "id": 5403,
+                  "description": "+0.25 gold / 10 sec.",
+                  "name": "Greater Seal of Gold",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 15,
+               "rune": {
+                  "id": 5403,
+                  "description": "+0.25 gold / 10 sec.",
+                  "name": "Greater Seal of Gold",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 3,
+               "rune": {
+                  "id": 5259,
+                  "description": "+0.77 magic resist",
+                  "name": "Greater Mark of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 12,
+               "rune": {
+                  "id": 5403,
+                  "description": "+0.25 gold / 10 sec.",
+                  "name": "Greater Seal of Gold",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 13,
+               "rune": {
+                  "id": 5403,
+                  "description": "+0.25 gold / 10 sec.",
+                  "name": "Greater Seal of Gold",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 10,
+               "rune": {
+                  "id": 5403,
+                  "description": "+0.25 gold / 10 sec.",
+                  "name": "Greater Seal of Gold",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 11,
+               "rune": {
+                  "id": 5403,
+                  "description": "+0.25 gold / 10 sec.",
+                  "name": "Greater Seal of Gold",
+                  "tier": 3
+               }
+            }
+         ],
+         "name": "Support Tanky",
+         "current": false
+      },
+      {
+         "id": 18997113,
+         "slots": [
+            {
+               "runeSlotId": 2,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 3,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 1,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 8,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 9,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 6,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 7,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 4,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 5,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 30,
+               "rune": {
+                  "id": 5367,
+                  "description": "+1 gold / 10 sec.",
+                  "name": "Greater Quintessence of Gold",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 22,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 23,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 29,
+               "rune": {
+                  "id": 5367,
+                  "description": "+1 gold / 10 sec.",
+                  "name": "Greater Quintessence of Gold",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 20,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 21,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 28,
+               "rune": {
+                  "id": 5367,
+                  "description": "+1 gold / 10 sec.",
+                  "name": "Greater Quintessence of Gold",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 19,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 18,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 17,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 16,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 27,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 15,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 26,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 14,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 13,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 25,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 24,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 12,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 11,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 10,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            }
+         ],
+         "name": "pokemon",
+         "current": false
+      },
+      {
+         "id": 18997114,
+         "slots": [
+            {
+               "runeSlotId": 8,
+               "rune": {
+                  "id": 5257,
+                  "description": "+0.91 armor",
+                  "name": "Greater Mark of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 9,
+               "rune": {
+                  "id": 5257,
+                  "description": "+0.91 armor",
+                  "name": "Greater Mark of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 29,
+               "rune": {
+                  "id": 5365,
+                  "description": "+1.5% movement speed",
+                  "name": "Greater Quintessence of Movement Speed",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 28,
+               "rune": {
+                  "id": 5365,
+                  "description": "+1.5% movement speed",
+                  "name": "Greater Quintessence of Movement Speed",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 30,
+               "rune": {
+                  "id": 5365,
+                  "description": "+1.5% movement speed",
+                  "name": "Greater Quintessence of Movement Speed",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 22,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 23,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 20,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 21,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 19,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 7,
+               "rune": {
+                  "id": 5257,
+                  "description": "+0.91 armor",
+                  "name": "Greater Mark of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 18,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 6,
+               "rune": {
+                  "id": 5257,
+                  "description": "+0.91 armor",
+                  "name": "Greater Mark of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 5,
+               "rune": {
+                  "id": 5257,
+                  "description": "+0.91 armor",
+                  "name": "Greater Mark of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 17,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 4,
+               "rune": {
+                  "id": 5257,
+                  "description": "+0.91 armor",
+                  "name": "Greater Mark of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 16,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 27,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 15,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 3,
+               "rune": {
+                  "id": 5257,
+                  "description": "+0.91 armor",
+                  "name": "Greater Mark of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 26,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 2,
+               "rune": {
+                  "id": 5257,
+                  "description": "+0.91 armor",
+                  "name": "Greater Mark of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 14,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 13,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 25,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 1,
+               "rune": {
+                  "id": 5257,
+                  "description": "+0.91 armor",
+                  "name": "Greater Mark of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 24,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 12,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 11,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 10,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            }
+         ],
+         "name": "Annoyer",
+         "current": false
+      },
+      {
+         "id": 18997115,
+         "slots": [
+            {
+               "runeSlotId": 2,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 3,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 1,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 26,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 25,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 28,
+               "rune": {
+                  "id": 5351,
+                  "description": "+2.7 health regen / 5 sec.",
+                  "name": "Greater Quintessence of Health Regeneration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 27,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 29,
+               "rune": {
+                  "id": 5351,
+                  "description": "+2.7 health regen / 5 sec.",
+                  "name": "Greater Quintessence of Health Regeneration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 30,
+               "rune": {
+                  "id": 5351,
+                  "description": "+2.7 health regen / 5 sec.",
+                  "name": "Greater Quintessence of Health Regeneration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 8,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 9,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 6,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 7,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 4,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 5,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 22,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 23,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 20,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 21,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 19,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 18,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 17,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 16,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 15,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 14,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 13,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 24,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 12,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 11,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 10,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            }
+         ],
+         "name": "top lane sustain",
+         "current": false
+      },
+      {
+         "id": 18997116,
+         "slots": [
+            {
+               "runeSlotId": 28,
+               "rune": {
+                  "id": 5335,
+                  "description": "+2.25 attack damage",
+                  "name": "Greater Quintessence of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 29,
+               "rune": {
+                  "id": 5412,
+                  "description": "+2% Lifesteal.",
+                  "name": "Greater Quintessence of Life Steal",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 19,
+               "rune": {
+                  "id": 5301,
+                  "description": "+0.31 mana regen / 5 sec.",
+                  "name": "Greater Glyph of Mana Regeneration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 30,
+               "rune": {
+                  "id": 5412,
+                  "description": "+2% Lifesteal.",
+                  "name": "Greater Quintessence of Life Steal",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 2,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 3,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 1,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 8,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 9,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 6,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 7,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 4,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 5,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 23,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 18,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 17,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 16,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 27,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 15,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 26,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 14,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 13,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 25,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 24,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 12,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 11,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 10,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 21,
+               "rune": {
+                  "id": 5301,
+                  "description": "+0.31 mana regen / 5 sec.",
+                  "name": "Greater Glyph of Mana Regeneration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 20,
+               "rune": {
+                  "id": 5301,
+                  "description": "+0.31 mana regen / 5 sec.",
+                  "name": "Greater Glyph of Mana Regeneration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 22,
+               "rune": {
+                  "id": 5301,
+                  "description": "+0.31 mana regen / 5 sec.",
+                  "name": "Greater Glyph of Mana Regeneration",
+                  "tier": 3
+               }
+            }
+         ],
+         "name": "ads",
+         "current": false
+      },
+      {
+         "id": 23306765,
+         "slots": [
+            {
+               "runeSlotId": 29,
+               "rune": {
+                  "id": 5335,
+                  "description": "+2.25 attack damage",
+                  "name": "Greater Quintessence of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 7,
+               "rune": {
+                  "id": 5247,
+                  "description": "+1.7% attack speed",
+                  "name": "Greater Mark of Attack Speed",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 28,
+               "rune": {
+                  "id": 5335,
+                  "description": "+2.25 attack damage",
+                  "name": "Greater Quintessence of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 6,
+               "rune": {
+                  "id": 5247,
+                  "description": "+1.7% attack speed",
+                  "name": "Greater Mark of Attack Speed",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 9,
+               "rune": {
+                  "id": 5247,
+                  "description": "+1.7% attack speed",
+                  "name": "Greater Mark of Attack Speed",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 8,
+               "rune": {
+                  "id": 5247,
+                  "description": "+1.7% attack speed",
+                  "name": "Greater Mark of Attack Speed",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 1,
+               "rune": {
+                  "id": 5247,
+                  "description": "+1.7% attack speed",
+                  "name": "Greater Mark of Attack Speed",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 3,
+               "rune": {
+                  "id": 5247,
+                  "description": "+1.7% attack speed",
+                  "name": "Greater Mark of Attack Speed",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 2,
+               "rune": {
+                  "id": 5247,
+                  "description": "+1.7% attack speed",
+                  "name": "Greater Mark of Attack Speed",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 5,
+               "rune": {
+                  "id": 5247,
+                  "description": "+1.7% attack speed",
+                  "name": "Greater Mark of Attack Speed",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 30,
+               "rune": {
+                  "id": 5335,
+                  "description": "+2.25 attack damage",
+                  "name": "Greater Quintessence of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 4,
+               "rune": {
+                  "id": 5247,
+                  "description": "+1.7% attack speed",
+                  "name": "Greater Mark of Attack Speed",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 26,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 25,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 27,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 22,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 23,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 20,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 21,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 19,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 18,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 17,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 16,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 15,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 14,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 13,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 12,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 24,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 11,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 10,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            }
+         ],
+         "name": "AS AD Kayle/Shyv/Irelia/BJ",
+         "current": false
+      },
+      {
+         "id": 23306766,
+         "slots": [
+            {
+               "runeSlotId": 7,
+               "rune": {
+                  "id": 5247,
+                  "description": "+1.7% attack speed",
+                  "name": "Greater Mark of Attack Speed",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 6,
+               "rune": {
+                  "id": 5247,
+                  "description": "+1.7% attack speed",
+                  "name": "Greater Mark of Attack Speed",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 9,
+               "rune": {
+                  "id": 5247,
+                  "description": "+1.7% attack speed",
+                  "name": "Greater Mark of Attack Speed",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 8,
+               "rune": {
+                  "id": 5247,
+                  "description": "+1.7% attack speed",
+                  "name": "Greater Mark of Attack Speed",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 21,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 22,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 23,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 1,
+               "rune": {
+                  "id": 5247,
+                  "description": "+1.7% attack speed",
+                  "name": "Greater Mark of Attack Speed",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 24,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 3,
+               "rune": {
+                  "id": 5247,
+                  "description": "+1.7% attack speed",
+                  "name": "Greater Mark of Attack Speed",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 2,
+               "rune": {
+                  "id": 5247,
+                  "description": "+1.7% attack speed",
+                  "name": "Greater Mark of Attack Speed",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 5,
+               "rune": {
+                  "id": 5247,
+                  "description": "+1.7% attack speed",
+                  "name": "Greater Mark of Attack Speed",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 19,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 4,
+               "rune": {
+                  "id": 5247,
+                  "description": "+1.7% attack speed",
+                  "name": "Greater Mark of Attack Speed",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 20,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 26,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 25,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 27,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 29,
+               "rune": {
+                  "id": 5365,
+                  "description": "+1.5% movement speed",
+                  "name": "Greater Quintessence of Movement Speed",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 28,
+               "rune": {
+                  "id": 5365,
+                  "description": "+1.5% movement speed",
+                  "name": "Greater Quintessence of Movement Speed",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 30,
+               "rune": {
+                  "id": 5365,
+                  "description": "+1.5% movement speed",
+                  "name": "Greater Quintessence of Movement Speed",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 18,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 17,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 16,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 15,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 14,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 13,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 12,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 11,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 10,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            }
+         ],
+         "name": "jungle movement",
+         "current": false
+      },
+      {
+         "id": 23306767,
+         "slots": [
+            {
+               "runeSlotId": 8,
+               "rune": {
+                  "id": 5253,
+                  "description": "+1.28 armor penetration",
+                  "name": "Greater Mark of Armor Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 9,
+               "rune": {
+                  "id": 5253,
+                  "description": "+1.28 armor penetration",
+                  "name": "Greater Mark of Armor Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 4,
+               "rune": {
+                  "id": 5253,
+                  "description": "+1.28 armor penetration",
+                  "name": "Greater Mark of Armor Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 5,
+               "rune": {
+                  "id": 5253,
+                  "description": "+1.28 armor penetration",
+                  "name": "Greater Mark of Armor Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 6,
+               "rune": {
+                  "id": 5253,
+                  "description": "+1.28 armor penetration",
+                  "name": "Greater Mark of Armor Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 7,
+               "rune": {
+                  "id": 5253,
+                  "description": "+1.28 armor penetration",
+                  "name": "Greater Mark of Armor Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 21,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 24,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 28,
+               "rune": {
+                  "id": 5343,
+                  "description": "+2.56 armor penetration",
+                  "name": "Greater Quintessence of Armor Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 29,
+               "rune": {
+                  "id": 5343,
+                  "description": "+2.56 armor penetration",
+                  "name": "Greater Quintessence of Armor Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 19,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 20,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 22,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 23,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 30,
+               "rune": {
+                  "id": 5343,
+                  "description": "+2.56 armor penetration",
+                  "name": "Greater Quintessence of Armor Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 18,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 17,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 16,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 27,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 15,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 26,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 14,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 25,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 13,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 12,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 3,
+               "rune": {
+                  "id": 5253,
+                  "description": "+1.28 armor penetration",
+                  "name": "Greater Mark of Armor Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 11,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 10,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 2,
+               "rune": {
+                  "id": 5253,
+                  "description": "+1.28 armor penetration",
+                  "name": "Greater Mark of Armor Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 1,
+               "rune": {
+                  "id": 5253,
+                  "description": "+1.28 armor penetration",
+                  "name": "Greater Mark of Armor Penetration",
+                  "tier": 3
+               }
+            }
+         ],
+         "name": "bruisa",
+         "current": false
+      },
+      {
+         "id": 23306768,
+         "slots": [
+            {
+               "runeSlotId": 29,
+               "rune": {
+                  "id": 5335,
+                  "description": "+2.25 attack damage",
+                  "name": "Greater Quintessence of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 28,
+               "rune": {
+                  "id": 5335,
+                  "description": "+2.25 attack damage",
+                  "name": "Greater Quintessence of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 30,
+               "rune": {
+                  "id": 5335,
+                  "description": "+2.25 attack damage",
+                  "name": "Greater Quintessence of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 2,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 3,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 1,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 8,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 9,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 6,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 7,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 4,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 5,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 18,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 17,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 16,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 15,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 14,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 19,
+               "rune": {
+                  "id": 5295,
+                  "description": "-0.83% cooldowns",
+                  "name": "Greater Glyph of Cooldown Reduction",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 13,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 20,
+               "rune": {
+                  "id": 5295,
+                  "description": "-0.83% cooldowns",
+                  "name": "Greater Glyph of Cooldown Reduction",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 12,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 21,
+               "rune": {
+                  "id": 5295,
+                  "description": "-0.83% cooldowns",
+                  "name": "Greater Glyph of Cooldown Reduction",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 22,
+               "rune": {
+                  "id": 5295,
+                  "description": "-0.83% cooldowns",
+                  "name": "Greater Glyph of Cooldown Reduction",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 11,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 10,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 23,
+               "rune": {
+                  "id": 5295,
+                  "description": "-0.83% cooldowns",
+                  "name": "Greater Glyph of Cooldown Reduction",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 24,
+               "rune": {
+                  "id": 5295,
+                  "description": "-0.83% cooldowns",
+                  "name": "Greater Glyph of Cooldown Reduction",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 25,
+               "rune": {
+                  "id": 5295,
+                  "description": "-0.83% cooldowns",
+                  "name": "Greater Glyph of Cooldown Reduction",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 26,
+               "rune": {
+                  "id": 5295,
+                  "description": "-0.83% cooldowns",
+                  "name": "Greater Glyph of Cooldown Reduction",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 27,
+               "rune": {
+                  "id": 5295,
+                  "description": "-0.83% cooldowns",
+                  "name": "Greater Glyph of Cooldown Reduction",
+                  "tier": 3
+               }
+            }
+         ],
+         "name": "de bunneh",
+         "current": false
+      },
+      {
+         "id": 23306769,
+         "slots": [
+            {
+               "runeSlotId": 28,
+               "rune": {
+                  "id": 5335,
+                  "description": "+2.25 attack damage",
+                  "name": "Greater Quintessence of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 21,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 22,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 23,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 24,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 19,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 20,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 2,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 3,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 1,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 26,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 25,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 27,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 8,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 9,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 6,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 7,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 4,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 5,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 29,
+               "rune": {
+                  "id": 5365,
+                  "description": "+1.5% movement speed",
+                  "name": "Greater Quintessence of Movement Speed",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 30,
+               "rune": {
+                  "id": 5365,
+                  "description": "+1.5% movement speed",
+                  "name": "Greater Quintessence of Movement Speed",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 18,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 17,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 16,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 15,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 14,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 13,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 12,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 11,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 10,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            }
+         ],
+         "name": "singaahh",
+         "current": false
+      },
+      {
+         "id": 23306770,
+         "slots": [
+            {
+               "runeSlotId": 2,
+               "rune": {
+                  "id": 5273,
+                  "description": "+0.87 magic penetration",
+                  "name": "Greater Mark of Magic Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 3,
+               "rune": {
+                  "id": 5273,
+                  "description": "+0.87 magic penetration",
+                  "name": "Greater Mark of Magic Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 26,
+               "rune": {
+                  "id": 5303,
+                  "description": "+0.63 magic penetration",
+                  "name": "Greater Glyph of Magic Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 1,
+               "rune": {
+                  "id": 5273,
+                  "description": "+0.87 magic penetration",
+                  "name": "Greater Mark of Magic Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 27,
+               "rune": {
+                  "id": 5303,
+                  "description": "+0.63 magic penetration",
+                  "name": "Greater Glyph of Magic Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 6,
+               "rune": {
+                  "id": 5273,
+                  "description": "+0.87 magic penetration",
+                  "name": "Greater Mark of Magic Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 7,
+               "rune": {
+                  "id": 5273,
+                  "description": "+0.87 magic penetration",
+                  "name": "Greater Mark of Magic Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 4,
+               "rune": {
+                  "id": 5273,
+                  "description": "+0.87 magic penetration",
+                  "name": "Greater Mark of Magic Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 5,
+               "rune": {
+                  "id": 5273,
+                  "description": "+0.87 magic penetration",
+                  "name": "Greater Mark of Magic Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 9,
+               "rune": {
+                  "id": 5273,
+                  "description": "+0.87 magic penetration",
+                  "name": "Greater Mark of Magic Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 8,
+               "rune": {
+                  "id": 5273,
+                  "description": "+0.87 magic penetration",
+                  "name": "Greater Mark of Magic Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 29,
+               "rune": {
+                  "id": 5365,
+                  "description": "+1.5% movement speed",
+                  "name": "Greater Quintessence of Movement Speed",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 28,
+               "rune": {
+                  "id": 5365,
+                  "description": "+1.5% movement speed",
+                  "name": "Greater Quintessence of Movement Speed",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 30,
+               "rune": {
+                  "id": 5365,
+                  "description": "+1.5% movement speed",
+                  "name": "Greater Quintessence of Movement Speed",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 22,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 23,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 20,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 21,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 19,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 18,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 17,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 16,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 15,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 14,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 13,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 25,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 12,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 24,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 11,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 10,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            }
+         ],
+         "name": "ryze",
+         "current": false
+      },
+      {
+         "id": 23306771,
+         "slots": [
+            {
+               "runeSlotId": 28,
+               "rune": {
+                  "id": 5335,
+                  "description": "+2.25 attack damage",
+                  "name": "Greater Quintessence of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 29,
+               "rune": {
+                  "id": 5412,
+                  "description": "+2% Lifesteal.",
+                  "name": "Greater Quintessence of Life Steal",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 30,
+               "rune": {
+                  "id": 5412,
+                  "description": "+2% Lifesteal.",
+                  "name": "Greater Quintessence of Life Steal",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 8,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 9,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 7,
+               "rune": {
+                  "id": 5245,
+                  "description": "+0.95 attack damage",
+                  "name": "Greater Mark of Attack Damage",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 22,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 23,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 20,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 21,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 19,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 18,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 17,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 16,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 15,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 27,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 14,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 26,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 25,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 13,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 24,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 12,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 11,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 10,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 5,
+               "rune": {
+                  "id": 5402,
+                  "description": "+0.9 Armor Penetration / +0.62 Magic Penetration",
+                  "name": "Greater Mark of Hybrid Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 6,
+               "rune": {
+                  "id": 5402,
+                  "description": "+0.9 Armor Penetration / +0.62 Magic Penetration",
+                  "name": "Greater Mark of Hybrid Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 3,
+               "rune": {
+                  "id": 5402,
+                  "description": "+0.9 Armor Penetration / +0.62 Magic Penetration",
+                  "name": "Greater Mark of Hybrid Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 4,
+               "rune": {
+                  "id": 5402,
+                  "description": "+0.9 Armor Penetration / +0.62 Magic Penetration",
+                  "name": "Greater Mark of Hybrid Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 1,
+               "rune": {
+                  "id": 5402,
+                  "description": "+0.9 Armor Penetration / +0.62 Magic Penetration",
+                  "name": "Greater Mark of Hybrid Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 2,
+               "rune": {
+                  "id": 5402,
+                  "description": "+0.9 Armor Penetration / +0.62 Magic Penetration",
+                  "name": "Greater Mark of Hybrid Penetration",
+                  "tier": 3
+               }
+            }
+         ],
+         "name": "varus corki experimental",
+         "current": false
+      },
+      {
+         "id": 38962166,
+         "slots": [
+            {
+               "runeSlotId": 2,
+               "rune": {
+                  "id": 5273,
+                  "description": "+0.87 magic penetration",
+                  "name": "Greater Mark of Magic Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 20,
+               "rune": {
+                  "id": 5303,
+                  "description": "+0.63 magic penetration",
+                  "name": "Greater Glyph of Magic Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 3,
+               "rune": {
+                  "id": 5273,
+                  "description": "+0.87 magic penetration",
+                  "name": "Greater Mark of Magic Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 1,
+               "rune": {
+                  "id": 5273,
+                  "description": "+0.87 magic penetration",
+                  "name": "Greater Mark of Magic Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 19,
+               "rune": {
+                  "id": 5303,
+                  "description": "+0.63 magic penetration",
+                  "name": "Greater Glyph of Magic Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 6,
+               "rune": {
+                  "id": 5273,
+                  "description": "+0.87 magic penetration",
+                  "name": "Greater Mark of Magic Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 7,
+               "rune": {
+                  "id": 5273,
+                  "description": "+0.87 magic penetration",
+                  "name": "Greater Mark of Magic Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 4,
+               "rune": {
+                  "id": 5273,
+                  "description": "+0.87 magic penetration",
+                  "name": "Greater Mark of Magic Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 5,
+               "rune": {
+                  "id": 5273,
+                  "description": "+0.87 magic penetration",
+                  "name": "Greater Mark of Magic Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 26,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 25,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 27,
+               "rune": {
+                  "id": 5290,
+                  "description": "+0.15 magic resist per level (+2.7 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 9,
+               "rune": {
+                  "id": 5273,
+                  "description": "+0.87 magic penetration",
+                  "name": "Greater Mark of Magic Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 8,
+               "rune": {
+                  "id": 5273,
+                  "description": "+0.87 magic penetration",
+                  "name": "Greater Mark of Magic Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 22,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 23,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 28,
+               "rune": {
+                  "id": 5357,
+                  "description": "+4.95 ability power",
+                  "name": "Greater Quintessence of Ability Power",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 21,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 18,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 17,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 16,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 15,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 14,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 13,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 24,
+               "rune": {
+                  "id": 5289,
+                  "description": "+1.34 magic resist",
+                  "name": "Greater Glyph of Magic Resist",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 12,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 11,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 10,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 30,
+               "rune": {
+                  "id": 5409,
+                  "description": "+2% Spellvamp.",
+                  "name": "Greater Quintessence of Spell Vamp",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 29,
+               "rune": {
+                  "id": 5409,
+                  "description": "+2% Spellvamp.",
+                  "name": "Greater Quintessence of Spell Vamp",
+                  "tier": 3
+               }
+            }
+         ],
+         "name": "Dat Mummy",
+         "current": false
+      },
+      {
+         "id": 38962167,
+         "slots": [
+            {
+               "runeSlotId": 2,
+               "rune": {
+                  "id": 5273,
+                  "description": "+0.87 magic penetration",
+                  "name": "Greater Mark of Magic Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 3,
+               "rune": {
+                  "id": 5273,
+                  "description": "+0.87 magic penetration",
+                  "name": "Greater Mark of Magic Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 1,
+               "rune": {
+                  "id": 5273,
+                  "description": "+0.87 magic penetration",
+                  "name": "Greater Mark of Magic Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 6,
+               "rune": {
+                  "id": 5273,
+                  "description": "+0.87 magic penetration",
+                  "name": "Greater Mark of Magic Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 7,
+               "rune": {
+                  "id": 5273,
+                  "description": "+0.87 magic penetration",
+                  "name": "Greater Mark of Magic Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 4,
+               "rune": {
+                  "id": 5273,
+                  "description": "+0.87 magic penetration",
+                  "name": "Greater Mark of Magic Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 5,
+               "rune": {
+                  "id": 5273,
+                  "description": "+0.87 magic penetration",
+                  "name": "Greater Mark of Magic Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 23,
+               "rune": {
+                  "id": 5298,
+                  "description": "+0.17 ability power per level (+3.06 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Ability Power",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 24,
+               "rune": {
+                  "id": 5298,
+                  "description": "+0.17 ability power per level (+3.06 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Ability Power",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 21,
+               "rune": {
+                  "id": 5298,
+                  "description": "+0.17 ability power per level (+3.06 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Ability Power",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 22,
+               "rune": {
+                  "id": 5298,
+                  "description": "+0.17 ability power per level (+3.06 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Ability Power",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 19,
+               "rune": {
+                  "id": 5298,
+                  "description": "+0.17 ability power per level (+3.06 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Ability Power",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 20,
+               "rune": {
+                  "id": 5298,
+                  "description": "+0.17 ability power per level (+3.06 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Ability Power",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 9,
+               "rune": {
+                  "id": 5273,
+                  "description": "+0.87 magic penetration",
+                  "name": "Greater Mark of Magic Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 8,
+               "rune": {
+                  "id": 5273,
+                  "description": "+0.87 magic penetration",
+                  "name": "Greater Mark of Magic Penetration",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 27,
+               "rune": {
+                  "id": 5298,
+                  "description": "+0.17 ability power per level (+3.06 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Ability Power",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 25,
+               "rune": {
+                  "id": 5298,
+                  "description": "+0.17 ability power per level (+3.06 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Ability Power",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 26,
+               "rune": {
+                  "id": 5298,
+                  "description": "+0.17 ability power per level (+3.06 at champion level 18)",
+                  "name": "Greater Glyph of Scaling Ability Power",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 30,
+               "rune": {
+                  "id": 5357,
+                  "description": "+4.95 ability power",
+                  "name": "Greater Quintessence of Ability Power",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 17,
+               "rune": {
+                  "id": 5328,
+                  "description": "+0.1 ability power per level (+1.8 at champion level 18)",
+                  "name": "Greater Seal of Scaling Ability Power",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 28,
+               "rune": {
+                  "id": 5357,
+                  "description": "+4.95 ability power",
+                  "name": "Greater Quintessence of Ability Power",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 18,
+               "rune": {
+                  "id": 5328,
+                  "description": "+0.1 ability power per level (+1.8 at champion level 18)",
+                  "name": "Greater Seal of Scaling Ability Power",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 29,
+               "rune": {
+                  "id": 5357,
+                  "description": "+4.95 ability power",
+                  "name": "Greater Quintessence of Ability Power",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 16,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 15,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 14,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 13,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 12,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 11,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            },
+            {
+               "runeSlotId": 10,
+               "rune": {
+                  "id": 5317,
+                  "description": "+1.41 armor",
+                  "name": "Greater Seal of Armor",
+                  "tier": 3
+               }
+            }
+         ],
+         "name": "morgix",
+         "current": false
+      }
+   ],
+   "summonerId": 32144
+}

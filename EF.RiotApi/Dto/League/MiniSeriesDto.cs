@@ -10,18 +10,18 @@ namespace EF.RiotApi.Dto.League
     public class MiniSeriesDto
     {
         [JsonProperty("losses")]
-        int Losses { get; set; }
+        public int Losses { get; set; }
 
         [JsonProperty("progress")]
-        string Progress { get; set; }
+        public string Progress { get; set; }
 
         [JsonProperty("target")]
-        int Target { get; set; }
+        public int Target { get; set; }
 
         [JsonProperty("timeLeftToPlayMillis")]
-        long TimeLeftToPlayMillis { get; set; }
+        public long TimeLeftToPlayMillis { get; set; }
 
         [JsonProperty("wins")]
-        int	Wins { get; set; }
+        public int Wins { get; set; }
     }
 }

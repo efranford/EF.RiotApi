@@ -53,15 +53,34 @@
     <Compile Include="Dto\Stats\PlayerStatsSummaryDto.cs" />
     <Compile Include="Dto\Game\RawStatDto.cs" />
     <Compile Include="Dto\Game\RecentGamesDto.cs" />
+    <Compile Include="Dto\Summoner\Masteries\MasteryPageDto.cs" />
+    <Compile Include="Dto\Summoner\Masteries\TalentDto.cs" />
+    <Compile Include="Dto\Summoner\Runes\RuneDto.cs" />
+    <Compile Include="Dto\Summoner\Runes\RunePageDto.cs" />
+    <Compile Include="Dto\Summoner\Runes\RuneSlotDto.cs" />
+    <Compile Include="Dto\Summoner\SummonerDto.cs" />
+    <Compile Include="Dto\Summoner\SummonerNameDto.cs" />
+    <Compile Include="Dto\Team\MatchHistorySummaryDto.cs" />
+    <Compile Include="Dto\Team\MessageOfDayDto.cs" />
+    <Compile Include="Dto\Team\RosterDto.cs" />
+    <Compile Include="Dto\Team\TeamDto.cs" />
+    <Compile Include="Dto\Team\TeamIdDto.cs" />
+    <Compile Include="Dto\Team\TeamMemberInfoDto.cs" />
+    <Compile Include="Dto\Team\TeamStatDetailDto.cs" />
+    <Compile Include="Dto\Team\TeamStatSummaryDto.cs" />
     <Compile Include="Helpers\RiotApiHelper.cs" />
     <Compile Include="WebRequestResults\LeagueResult.cs" />
+    <Compile Include="WebRequestResults\MasterPagesResult.cs" />
     <Compile Include="WebRequestResults\PlayerStatsSummaryResult.cs" />
     <Compile Include="WebRequestResults\RecentGamesResult.cs" />
-    <Compile Include="Client\JsonWebRequest.cs" />
+    <Compile Include="Dto\JsonWebRequest.cs" />
     <Compile Include="Dto\Champion\ChampionDto.cs" />
     <Compile Include="WebRequestResults\ChampionsResult.cs" />
     <Compile Include="Client\RiotWeb.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebRequestResults\RunePagesResult.cs" />
+    <Compile Include="WebRequestResults\SummonerNameListResult.cs" />
+    <Compile Include="WebRequestResults\TeamResult.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config">
@@ -69,6 +88,7 @@
     </None>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

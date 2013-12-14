@@ -13,18 +13,18 @@ namespace EF.RiotApi.Dto.Game
         /// Champion id associated with player.
         /// </summary>
         [JsonProperty("championId")]
-        int ChampionId { get; set; }
+        public int ChampionId { get; set; }
 
         /// <summary>
         /// Summoner id associated with player.
         /// </summary>
         [JsonProperty("summonerId")]
-        long SummonerId { get; set; }
+        public long SummonerId { get; set; }
 
         /// <summary>
         /// Team id associated with player.
         /// </summary>
         [JsonProperty("teamId")]
-        int TeamId { get; set; }
+        public int TeamId { get; set; }
     }
 }

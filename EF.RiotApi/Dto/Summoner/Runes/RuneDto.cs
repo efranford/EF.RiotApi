@@ -5,26 +5,32 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EF.RiotApi.Dto.Stats
+namespace EF.RiotApi.Dto.Summoner.Runes
 {
-    public class AggregatedStatDto
+    public class RuneDto
     {
         /// <summary>
-        /// Aggregated stat value.
+        /// Rune description.
         /// </summary>
-        [JsonProperty("count")]
-        public int Count { get; set; }
-        
+        [JsonProperty("description")]
+        public string Description { get; set; }
+
         /// <summary>
-        /// Aggregated stat type ID.
+        /// Rune ID.
         /// </summary>
         [JsonProperty("id")]
         public int Id { get; set; }
-        
+
         /// <summary>
-        /// Aggregated stat type name.
+        /// Rune name.
         /// </summary>
         [JsonProperty("name")]
         public string Name { get; set; }
+
+        /// <summary>
+        /// Rune tier.
+        /// </summary>
+        [JsonProperty("tier")]
+        public int Tier { get; set; }
     }
 }

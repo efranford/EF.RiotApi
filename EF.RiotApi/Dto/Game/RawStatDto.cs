@@ -13,18 +13,18 @@ namespace EF.RiotApi.Dto.Game
         /// Raw stat ID.
         /// </summary>
         [JsonProperty("id")]
-        int Id { get; set; }
+        public int Id { get; set; }
 
         /// <summary>
         /// Raw stat name.
         /// </summary>
         [JsonProperty("name")]
-        string Name { get; set; }
+        public string Name { get; set; }
 
         /// <summary>
         /// Raw stat value.
         /// </summary>
         [JsonProperty("value")]
-        int Value { get; set; }
+        public int Value { get; set; }
     }
 }
