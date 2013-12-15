@@ -16,3 +16,24 @@ From there you should be pretty good to go.  Just call into RiotWeb to do what y
 Side Note:
 --------
 Check out the tests to see how calls are made.
+
+
+Update
+--------
+I was a dofus and left my app config in an old commit in the tests projectso you could use my key.  Thanks to everyone that let me know.  I've removed it and now you should be able to just modify what's there and it should work for you!
+
+If you are missing an app.config please add the following in an "app.config" file to both the Tests project as well as lib:
+
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <appSettings>
+    <add key="ApiKey" value="[YOUR KEY HERE]"/>
+    <add key="ApiUrl" value="https://prod.api.pvp.net/api/lol" />
+    <add key ="ApiRegion" value="na" />
+    <add key ="ApiVerision" value="v1.1" />
+    <add key ="CachingEnabled" value="true" />
+  </appSettings>
+</configuration>
+
+
+Thanks for your help everyone!
