@@ -164,4 +164,4 @@ pip-log.txt
 .DS_Store
 
 
-*.config
+app.config
