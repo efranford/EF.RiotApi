@@ -24,16 +24,15 @@ I was a dofus and left my app config in an old commit in the tests projectso you
 
 If you are missing an app.config please add the following in an "app.config" file to both the Tests project as well as lib:
 
-<?xml version="1.0" encoding="utf-8" ?>
-<configuration>
-  <appSettings>
-    <add key="ApiKey" value="[YOUR KEY HERE]"/>
-    <add key="ApiUrl" value="https://prod.api.pvp.net/api/lol" />
-    <add key ="ApiRegion" value="na" />
-    <add key ="ApiVerision" value="v1.1" />
-    <add key ="CachingEnabled" value="true" />
-  </appSettings>
-</configuration>
-
+&lt;?xml version="1.0" encoding="utf-8" ?&gt;<br/>
+&lt;configuration&gt;<br/>
+  &lt;appSettings&gt;<br/>
+    &lt;add key="ApiKey" value="[YOUR KEY HERE]"/&gt;<br/>
+    &lt;add key="ApiUrl" value="https://prod.api.pvp.net/api/lol" /&gt;<br/>
+    &lt;add key ="ApiRegion" value="na" /&gt;<br/>
+    &lt;add key ="ApiVerision" value="v1.1" /&gt;<br/>
+    &lt;add key ="CachingEnabled" value="true" /&gt;<br/>
+  &lt;/appSettings&gt;<br/>
+&lt;/configuration&gt;<br/>
 
 Thanks for your help everyone!
