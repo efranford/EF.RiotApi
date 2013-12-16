@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("EF.RiotAPI")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("A library for easy access to Riots League of Legends Developer Api")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Elliot Franford")]
 [assembly: AssemblyProduct("EF.RiotAPI")]
 [assembly: AssemblyCopyright("Copyright ©  2013")]
 [assembly: AssemblyTrademark("")]
