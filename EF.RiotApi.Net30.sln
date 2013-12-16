@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF.RiotApi", "EF.RiotApi\EF.RiotApi.csproj", "{495E95AB-66C8-411C-A740-D8CC31067F21}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF.RiotApi.Net30", "EF.RiotAPI\EF.RiotApi.Net30.csproj", "{495E95AB-66C8-411C-A740-D8CC31067F21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF.RiotApi.Tests", "EF.RiotApi.Tests\EF.RiotApi.Tests.csproj", "{14A45194-A8FA-4B34-B80E-FF99D92F4FBC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF.RiotApi.Tests.Net30", "EF.RiotAPI.Tests\EF.RiotApi.Tests.Net30.csproj", "{14A45194-A8FA-4B34-B80E-FF99D92F4FBC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
