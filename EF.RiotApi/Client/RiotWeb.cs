@@ -9,6 +9,8 @@ using System.Collections.Generic;
 using System.Configuration;
 #if NET40 || NET45 || NET451
 using System.Threading.Tasks;
+#elif NET35
+using System.Threading.Tasks;
 #endif
 
 namespace EF.RiotApi.Client
@@ -89,7 +91,7 @@ namespace EF.RiotApi.Client
             }
             return result;
         }
-#else
+#elif NET35 || NET40
         /// <summary>
         /// Retrieve all champions asynchronously
         /// </summary>
@@ -159,7 +161,7 @@ namespace EF.RiotApi.Client
             var result = await recentGamesResult;
             return result;
         }
-#else
+#elif NET35 || NET40
         /// <summary>
         /// Get recent games by summoner ID
         /// </summary>
@@ -205,7 +207,7 @@ namespace EF.RiotApi.Client
             var result = await recentGamesResult;
             return result;
         }
-#else
+#elif NET35 || NET40
         /// <summary>
         /// Retrieves leagues data for summoner asynchronously, including leagues for all of summoner's teams
         /// </summary>
@@ -252,7 +254,7 @@ namespace EF.RiotApi.Client
             var result = await recentGamesResult;
             return result;
         }
-#else
+#elif NET35 || NET40
         /// </summary>
         /// <param name="summonerId">ID of the summoner for which to retrieve player stats.</param>
         /// <param name="region">Region where to retrieve the data.</param>
@@ -300,7 +302,7 @@ namespace EF.RiotApi.Client
             var result = await recentGamesResult;
             return result;
         }
-#else
+#elif NET35 || NET40
         /// <summary>
         /// Get rune pages by summoner ID asynchronously
         /// </summary>
@@ -346,7 +348,7 @@ namespace EF.RiotApi.Client
             var result = await recentGamesResult;
             return result;
         }
-#else
+#elif NET35 || NET40
         /// <summary>
         /// Get mastery pages by summoner ID asynchronously
         /// </summary>
@@ -392,7 +394,7 @@ namespace EF.RiotApi.Client
             var result = await recentGamesResult;
             return result;
         }
-#else
+#elif NET35 || NET40
         /// <summary>
         /// Get summoner by name asynchronously
         /// </summary>
@@ -435,7 +437,7 @@ namespace EF.RiotApi.Client
             var result = await recentGamesResult;
             return result;
         }
-#else
+#elif NET35 || NET40
         /// <summary>
         /// Get summoner by summoner ID asynchronously
         /// </summary>
@@ -477,7 +479,7 @@ namespace EF.RiotApi.Client
             var result = await recentGamesResult;
             return result;
         }
-#else
+#elif NET35 || NET40
         /// <summary>
         /// Get list of summoner names by summoner IDs asynchronously
         /// </summary>
@@ -525,7 +527,7 @@ namespace EF.RiotApi.Client
             var result = await recentGamesResult;
             return result;
         }
-#else
+#elif NET35 || NET40
         /// <summary>
         /// Retrieves teams for given summoner ID aynchronously
         /// </summary>
