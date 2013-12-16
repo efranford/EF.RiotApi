@@ -14,6 +14,10 @@ https://developer.riotgames.com/
 
 From there you should be pretty good to go.  Just call into RiotWeb to do what you need to. 
 
+Now On NuGet!
+------------
+Grab the latest version at - https://www.nuget.org/packages/EF.RiotApi
+
 
 Usage:
 --------
