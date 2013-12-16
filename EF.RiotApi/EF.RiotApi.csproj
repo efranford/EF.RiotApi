@@ -46,6 +46,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Caching\ApiCache.cs" />
+    <Compile Include="Client\API\ChampionApi.cs" />
+    <Compile Include="Client\API\GameApi.cs" />
+    <Compile Include="Client\API\LeagueApi.cs" />
+    <Compile Include="Client\API\RiotApi.cs" />
+    <Compile Include="Client\API\StatsApi.cs" />
+    <Compile Include="Client\API\SummonerApi.cs" />
+    <Compile Include="Client\API\TeamApi.cs" />
     <Compile Include="Client\JsonWebRequest.cs" />
     <Compile Include="Dto\Stats\AggregatedStatDto.cs" />
     <Compile Include="Dto\Game\GameDto.cs" />
@@ -71,7 +78,7 @@
     <Compile Include="Dto\Team\TeamMemberInfoDto.cs" />
     <Compile Include="Dto\Team\TeamStatDetailDto.cs" />
     <Compile Include="Dto\Team\TeamStatSummaryDto.cs" />
-    <Compile Include="Helpers\RiotApiHelper.cs" />
+    <Compile Include="Helpers\ConfigurationHelper.cs" />
     <Compile Include="WebRequestResults\LeagueResult.cs" />
     <Compile Include="WebRequestResults\MasterPagesResult.cs" />
     <Compile Include="WebRequestResults\PlayerStatsSummaryResult.cs" />
