@@ -5,6 +5,9 @@ using System.Collections.Generic;
 
 namespace EF.RiotApi.WebRequestResults
 {
+    /// <summary>
+    /// The result of a rune page api request
+    /// </summary>
     public class RunePagesResult
     {
         /// <summary>

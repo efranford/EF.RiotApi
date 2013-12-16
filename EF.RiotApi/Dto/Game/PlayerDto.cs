@@ -3,6 +3,9 @@ using System;
 
 namespace EF.RiotApi.Dto.Game
 {
+    /// <summary>
+    /// The player stats data object
+    /// </summary>
     public class PlayerDto
     {
         /// <summary>

@@ -5,6 +5,9 @@ using System.Collections.Generic;
 
 namespace EF.RiotApi.WebRequestResults
 {
+    /// <summary>
+    /// The result of requesting a summoner name list
+    /// </summary>
     public class SummonerNameListResult
     {
         /// <summary>

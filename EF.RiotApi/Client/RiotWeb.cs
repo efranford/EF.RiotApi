@@ -3,6 +3,10 @@ using EF.RiotApi.Client.API;
 
 namespace EF.RiotApi.Client
 {
+    /// <summary>
+    /// RiotWeb wraps all the apis that are a part of the Developer Api.
+    /// It has properties that allow quick acess to all the different apis
+    /// </summary>
     public class RiotWeb
     {
         #region Singleton
@@ -10,6 +14,9 @@ namespace EF.RiotApi.Client
         private static volatile RiotWeb instance;
         private static object instanceLock = new object();
 
+        /// <summary>
+        /// Gets the instance of the RiotWeb wrapper
+        /// </summary>
         public static RiotWeb API
         {
             get

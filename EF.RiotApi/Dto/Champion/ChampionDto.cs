@@ -3,6 +3,9 @@ using System;
 
 namespace EF.RiotApi.Dto.Champion
 {
+    /// <summary>
+    /// The champion data object
+    /// </summary>
     public class ChampionDto
     {
         /// <summary>

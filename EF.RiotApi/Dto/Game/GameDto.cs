@@ -4,6 +4,9 @@ using System.Collections.Generic;
 
 namespace EF.RiotApi.Dto.Game
 {
+    /// <summary>
+    /// The game data object
+    /// </summary>
     public class GameDto
     {
         /// <summary>

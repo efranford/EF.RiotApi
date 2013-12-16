@@ -3,15 +3,27 @@ using System;
 
 namespace EF.RiotApi.Dto.Team
 {
+    /// <summary>
+    /// The message of the day
+    /// </summary>
     public class MessageOfDayDto
     {
+        /// <summary>
+        /// The date the message was created
+        /// </summary>
         [JsonProperty("createDate")]
         public long CreateDate { get; set; }
 
-        [JsonProperty("createDate")]
+        /// <summary>
+        /// The message
+        /// </summary>
+        [JsonProperty("message")]
         public string Message { get; set; }
 
-        [JsonProperty("createDate")]
+        /// <summary>
+        /// The version
+        /// </summary>
+        [JsonProperty("version")]
         public int Version { get; set; }
     }
 }

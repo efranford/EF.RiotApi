@@ -4,6 +4,9 @@ using System.Collections.Generic;
 
 namespace EF.RiotApi.Dto.Summoner.Masteries
 {
+    /// <summary>
+    /// The master page data object
+    /// </summary>
     public class MasteryPageDto
     {
         /// <summary>

@@ -3,6 +3,9 @@ using System;
 
 namespace EF.RiotApi.Dto.Summoner.Runes
 {
+    /// <summary>
+    /// The rune data object
+    /// </summary>
     public class RuneDto
     {
         /// <summary>

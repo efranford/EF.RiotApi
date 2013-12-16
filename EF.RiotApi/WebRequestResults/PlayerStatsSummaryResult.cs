@@ -5,6 +5,9 @@ using System.Collections.Generic;
 
 namespace EF.RiotApi.WebRequestResults
 {
+    /// <summary>
+    /// The result of a player stat summary api request
+    /// </summary>
     public class PlayerStatsSummaryResult
     {
         /// <summary>

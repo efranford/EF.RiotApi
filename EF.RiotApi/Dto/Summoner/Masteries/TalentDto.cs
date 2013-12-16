@@ -3,6 +3,9 @@ using System;
 
 namespace EF.RiotApi.Dto.Summoner.Masteries
 {
+    /// <summary>
+    /// The talent data object
+    /// </summary>
     public class TalentDto
     {
         /// <summary>

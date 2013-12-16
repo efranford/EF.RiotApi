@@ -3,6 +3,9 @@ using System;
 
 namespace EF.RiotApi.Dto.Summoner
 {
+    /// <summary>
+    /// The summoner data object
+    /// </summary>
     public class SummonerDto
     {
         /// <summary>

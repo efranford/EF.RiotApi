@@ -1,9 +1,11 @@
 ﻿using Newtonsoft.Json;
 using System;
-using System.Collections.Generic;
 
 namespace EF.RiotApi.Dto.Stats
 {
+    /// <summary>
+    /// The aggregated stats data object
+    /// </summary>
     public class AggregatedStatDto
     {
         /// <summary>

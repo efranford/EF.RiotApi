@@ -4,6 +4,9 @@ using System.Collections.Generic;
 
 namespace EF.RiotApi.Dto.Summoner.Runes
 {
+    /// <summary>
+    /// The rune page data object
+    /// </summary>
     public class RunePageDto
     {
         /// <summary>

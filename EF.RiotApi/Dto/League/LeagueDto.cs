@@ -4,8 +4,14 @@ using System.Collections.Generic;
 
 namespace EF.RiotApi.Dto.League
 {
+    /// <summary>
+    /// The league data object
+    /// </summary>
     public class LeagueDto
     {
+        /// <summary>
+        /// The league name
+        /// </summary>
         [JsonProperty("name")]
         public string Name { get; set; }
 
@@ -21,9 +27,15 @@ namespace EF.RiotApi.Dto.League
         [JsonProperty("tier")]
         public string Tier { get; set; }  
 
+        /// <summary>
+        /// The timestamp for this query
+        /// </summary>
         [JsonProperty("timeStamp")]
         public string Timestamp { get; set; }
 
+        /// <summary>
+        /// The information entries for the league
+        /// </summary>
         [JsonProperty("entries")]
         public List<LeagueDtoEntry> Entries { get; set; }
     }
