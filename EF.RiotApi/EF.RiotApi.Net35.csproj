@@ -7,8 +7,8 @@
     <ProjectGuid>{495E95AB-66C8-411C-A740-D8CC31067F21}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>EF.RiotApi.NET35</RootNamespace>
-    <AssemblyName>EF.RiotApi.NET35</AssemblyName>
+    <RootNamespace>EF.RiotApi</RootNamespace>
+    <AssemblyName>EF.RiotApi</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>

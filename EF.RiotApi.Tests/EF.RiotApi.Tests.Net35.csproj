@@ -6,8 +6,8 @@
     <ProjectGuid>{14A45194-A8FA-4B34-B80E-FF99D92F4FBC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>EF.RiotApi.Tests.NET35</RootNamespace>
-    <AssemblyName>EF.RiotApi.Tests.NET35</AssemblyName>
+    <RootNamespace>EF.RiotApi.Tests</RootNamespace>
+    <AssemblyName>EF.RiotApi.Tests</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>

@@ -72,9 +72,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\EF.RiotApi\EF.RiotApi.Net45.csproj">
+    <ProjectReference Include="..\EF.RiotAPI\EF.RiotApi.Net45.csproj">
       <Project>{495e95ab-66c8-411c-a740-d8cc31067f21}</Project>
-      <Name>EF.RiotApi</Name>
+      <Name>EF.RiotApi.Net45</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

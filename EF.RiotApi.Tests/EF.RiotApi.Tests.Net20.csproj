@@ -42,9 +42,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\packages\Newtonsoft.Json.5.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
   </ItemGroup>
   <Choose>
@@ -67,7 +64,6 @@
     <None Include="app.config" />
     <None Include="GetSummonerRunes.json" />
     <None Include="LeagueResult.json" />
-    <None Include="packages.config" />
     <None Include="RecentGamesResulr.json" />
     <None Include="SummonerByName.json" />
   </ItemGroup>
@@ -77,9 +73,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\EF.RiotApi\EF.RiotApi.Net20.csproj">
+    <ProjectReference Include="..\EF.RiotAPI\EF.RiotApi.Net20.csproj">
       <Project>{495e95ab-66c8-411c-a740-d8cc31067f21}</Project>
-      <Name>EF.RiotApi</Name>
+      <Name>EF.RiotApi.Net20</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
