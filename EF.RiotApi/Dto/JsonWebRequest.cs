@@ -1,16 +1,14 @@
-﻿using EF.RiotApi.Caching;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net;
-using System.Text;
+#if NET45 || NET451
 using System.Threading.Tasks;
-
+#endif
 namespace EF.RiotApi.Client
 {
     public class JsonWebRequest<T> where T : new()
     {
+#if NET45 || NET451
         public static async Task<T> CreateRequestAsync(string url)
         {
             var result = new T();
@@ -23,6 +21,7 @@ namespace EF.RiotApi.Client
             }
             return result;
         }
+#endif
 
         public static T CreateRequest(string url)
         {

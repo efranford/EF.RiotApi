@@ -7,11 +7,9 @@ using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
-using System.IO;
-using System.Linq;
-using System.Net;
-using System.Text;
+#if NET45 || NET451
 using System.Threading.Tasks;
+#endif
 
 namespace EF.RiotApi.Client
 {
@@ -67,7 +65,8 @@ namespace EF.RiotApi.Client
         #endregion
 
         #region Champion Api
-
+        
+#if NET45 || NET451
         /// <summary>
         /// Retrieve all champions asynchronously
         /// </summary>
@@ -90,6 +89,7 @@ namespace EF.RiotApi.Client
             }
             return result;
         }
+#endif
 
         /// <summary>
         /// Retrieve all champions
@@ -116,7 +116,8 @@ namespace EF.RiotApi.Client
         #endregion
 
         #region Game Api
-
+        
+#if NET45 || NET451
         /// <summary>
         /// Get recent games by summoner ID asynchronously
         /// </summary>
@@ -129,6 +130,7 @@ namespace EF.RiotApi.Client
             var result = await recentGamesResult;
             return result;
         }
+#endif
 
         /// <summary>
         /// Get recent games by summoner ID
@@ -145,7 +147,8 @@ namespace EF.RiotApi.Client
         #endregion
 
         #region League Api
-
+        
+#if NET45 || NET451
         /// <summary>
         /// Retrieves leagues data for summoner asynchronously, including leagues for all of summoner's teams
         /// </summary>
@@ -158,6 +161,7 @@ namespace EF.RiotApi.Client
             var result = await recentGamesResult;
             return result;
         }
+#endif
 
         /// <summary>
         /// Retrieves leagues data for summoner, including leagues for all of summoner's teams
@@ -174,7 +178,8 @@ namespace EF.RiotApi.Client
         #endregion
 
         #region Stats Api
-
+        
+#if NET45 || NET451
         /// <summary>
         /// Get player stats summaries by summoner ID asynchronously. One summary is returned per queue type
         /// </summary>
@@ -188,6 +193,7 @@ namespace EF.RiotApi.Client
             var result = await recentGamesResult;
             return result;
         }
+#endif
 
         /// <summary>
         /// Get player stats summaries by summoner ID. One summary is returned per queue type
@@ -207,7 +213,8 @@ namespace EF.RiotApi.Client
         #region Summoner Api
 
         #region Runes
-
+        
+#if NET45 || NET451
         /// <summary>
         /// Get rune pages by summoner ID asynchronously
         /// </summary>
@@ -220,6 +227,7 @@ namespace EF.RiotApi.Client
             var result = await recentGamesResult;
             return result;
         }
+#endif
 
         /// <summary>
         /// Get rune pages by summoner ID
@@ -236,7 +244,8 @@ namespace EF.RiotApi.Client
         #endregion
 
         #region Masteries
-
+        
+#if NET45 || NET451
         /// <summary>
         /// Get mastery pages by summoner ID asynchronously
         /// </summary>
@@ -249,6 +258,7 @@ namespace EF.RiotApi.Client
             var result = await recentGamesResult;
             return result;
         }
+#endif
 
         /// <summary>
         /// Get mastery pages by summoner ID
@@ -265,7 +275,8 @@ namespace EF.RiotApi.Client
         #endregion
 
         #region Summoner
-
+        
+#if NET45 || NET451
         /// <summary>
         /// Get summoner by name asynchronously
         /// </summary>
@@ -278,6 +289,7 @@ namespace EF.RiotApi.Client
             var result = await recentGamesResult;
             return result;
         }
+#endif
 
         /// <summary>
         /// Get summoner by name 
@@ -290,6 +302,8 @@ namespace EF.RiotApi.Client
             var result = JsonWebRequest<SummonerDto>.CreateRequest(RiotApiHelper.GetApiUri(api: "summoner", summonerName: name, region: region));
             return result;
         }
+        
+#if NET45 || NET451
 
         /// <summary>
         /// Get summoner by summoner ID asynchronously
@@ -303,6 +317,7 @@ namespace EF.RiotApi.Client
             var result = await recentGamesResult;
             return result;
         }
+#endif
 
         /// <summary>
         /// Get summoner by summoner ID 
@@ -315,7 +330,8 @@ namespace EF.RiotApi.Client
             var result = JsonWebRequest<SummonerDto>.CreateRequest(RiotApiHelper.GetApiUri(api: "summoner", summonerId: summonerId, region: region));
             return result;
         }
-
+        
+#if NET45 || NET451
         /// <summary>
         /// Get list of summoner names by summoner IDs asynchronously
         /// </summary>
@@ -328,6 +344,7 @@ namespace EF.RiotApi.Client
             var result = await recentGamesResult;
             return result;
         }
+#endif
 
         /// <summary>
         /// Get list of summoner names by summoner ID
@@ -346,7 +363,8 @@ namespace EF.RiotApi.Client
         #endregion
 
         #region Team Api
-
+        
+#if NET45 || NET451
         /// <summary>
         /// Retrieves teams for given summoner ID aynchronously
         /// </summary>
@@ -359,7 +377,7 @@ namespace EF.RiotApi.Client
             var result = await recentGamesResult;
             return result;
         }
-
+#endif
         /// <summary>
         /// Retrieves teams for given summoner ID
         /// </summary>

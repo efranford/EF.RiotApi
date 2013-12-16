@@ -37,6 +37,8 @@ namespace EF.RiotApi.Tests
             Assert.IsTrue(getChampsResult.Champions.Count > 0);
         }
 
+        
+#if NET45 || NET451
         [TestMethod]
         [TestCategory("Champion Api")]
         public void TestGetChampionsAsync()
@@ -44,6 +46,7 @@ namespace EF.RiotApi.Tests
             var getChampsResult = RiotWeb.API.GetChampionsAsync();
             Assert.IsTrue(getChampsResult.Result.Champions.Count > 0);
         }
+#endif
 
         #endregion
 
@@ -56,7 +59,8 @@ namespace EF.RiotApi.Tests
             var getRecentGamesresult = RiotWeb.API.GetGamesBySummoner(32144);
             Assert.IsTrue(getRecentGamesresult.Games.Count > 0);
         }
-
+        
+#if NET45 || NET451
         [TestMethod]
         [TestCategory("Game Api")]
         public void TestGetRecentGamesAsync()
@@ -64,6 +68,7 @@ namespace EF.RiotApi.Tests
             var getRecentGamesresult = RiotWeb.API.GetGamesBySummonerAsync(32144);
             Assert.IsTrue(getRecentGamesresult.Result.Games.Count > 0);
         }
+#endif
 
         #endregion
 
@@ -76,7 +81,8 @@ namespace EF.RiotApi.Tests
             var getLeagues = RiotWeb.API.GetLeagueBySummoner(32144);
             Assert.IsTrue(getLeagues.Keys.Count > 0);
         }
-
+        
+#if NET45 || NET451
         [TestMethod]
         [TestCategory("League Api")]
         public void TestGetLeaguesAsync()
@@ -85,6 +91,7 @@ namespace EF.RiotApi.Tests
             var result = getLeagues.Result;
             Assert.IsTrue(result.Keys.Count > 0);
         }
+#endif
 
 
         #endregion
@@ -98,7 +105,8 @@ namespace EF.RiotApi.Tests
             var getRecentGamesresult = RiotWeb.API.GetPlayerStatsSummary(32144);
             Assert.IsTrue(getRecentGamesresult.PlayerStatSummaries.Count > 0);
         }
-
+        
+#if NET45 || NET451
         [TestMethod]
         [TestCategory("Stats Api")]
         public void TestGetPlayerStatsSummaryAsync()
@@ -107,6 +115,7 @@ namespace EF.RiotApi.Tests
             var result = getRecentGamesresult.Result;
             Assert.IsTrue(result.PlayerStatSummaries.Count > 0);
         }
+#endif
 
         #endregion
 
@@ -119,7 +128,8 @@ namespace EF.RiotApi.Tests
             var getSummonerRunes = RiotWeb.API.GetSummonerRunes(32144);
             Assert.IsTrue(getSummonerRunes.Pages.Count > 0);
         }
-
+        
+#if NET45 || NET451
         [TestMethod]
         [TestCategory("Summoner Api")]
         public void TestGetSummonerRunesAsync()
@@ -128,6 +138,7 @@ namespace EF.RiotApi.Tests
             var result = getSummonerRunes.Result;
             Assert.IsTrue(result.Pages.Count > 0);
         }
+#endif
 
         [TestMethod]
         [TestCategory("Summoner Api")]
@@ -136,7 +147,8 @@ namespace EF.RiotApi.Tests
             var getSummonerMasteries = RiotWeb.API.GetSummonerMasteries(32144);
             Assert.IsTrue(getSummonerMasteries.Pages.Count > 0);
         }
-
+        
+#if NET45 || NET451
         [TestMethod]
         [TestCategory("Summoner Api")]
         public void TestGetSummonerMasteriesAsync()
@@ -145,6 +157,7 @@ namespace EF.RiotApi.Tests
             var result = getSummonerMasteries.Result;
             Assert.IsTrue(result.Pages.Count > 0);
         }
+#endif
 
         [TestMethod]
         [TestCategory("Summoner Api")]
@@ -153,7 +166,8 @@ namespace EF.RiotApi.Tests
             var getSummoner = RiotWeb.API.GetSummoner(32144);
             Assert.IsTrue(getSummoner.Name == "Dome");
         }
-
+        
+#if NET45 || NET451
         [TestMethod]
         [TestCategory("Summoner Api")]
         public void TestGetSummonerByIdAsync()
@@ -162,6 +176,7 @@ namespace EF.RiotApi.Tests
             var result = getSummoner.Result;
             Assert.IsTrue(result.Name == "Dome");
         }
+#endif
 
         [TestMethod]
         [TestCategory("Summoner Api")]
@@ -170,7 +185,8 @@ namespace EF.RiotApi.Tests
             var getSummoner = RiotWeb.API.GetSummoner("Dome");
             Assert.IsTrue(getSummoner.Id == 32144);
         }
-
+        
+#if NET45 || NET451
         [TestMethod]
         [TestCategory("Summoner Api")]
         public void TestGetSummonerByNameAsync()
@@ -179,6 +195,7 @@ namespace EF.RiotApi.Tests
             var result = getSummoner.Result;
             Assert.IsTrue(result.Id == 32144);
         }
+#endif
 
         [TestMethod]
         [TestCategory("Summoner Api")]
@@ -192,7 +209,8 @@ namespace EF.RiotApi.Tests
                 Assert.IsTrue(listIds.Contains(summoner.Id));
             });
         }
-
+        
+#if NET45 || NET451
         [TestMethod]
         [TestCategory("Summoner Api")]
         public void TestGetSummonersAsync()
@@ -206,6 +224,7 @@ namespace EF.RiotApi.Tests
                 Assert.IsTrue(listIds.Contains(summoner.Id));
             });
         }
+#endif
 
         #endregion
 
@@ -218,7 +237,8 @@ namespace EF.RiotApi.Tests
             var getTeams = RiotWeb.API.GetSummonerTeams(32144);
             Assert.IsTrue(getTeams.Count > 0);
          }
-
+        
+#if NET45 || NET451
         [TestMethod]
         [TestCategory("Team Api")]
         public void GetTeamsBySummonerAsync()
@@ -226,6 +246,7 @@ namespace EF.RiotApi.Tests
             var getTeams = RiotWeb.API.GetSummonerTeamsAsync(32144);
             Assert.IsTrue(getTeams.Result.Count > 0);
         }
+#endif
 
 
         #endregion

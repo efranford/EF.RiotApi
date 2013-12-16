@@ -1,11 +1,7 @@
-﻿using EF.RiotApi.Dto.Summoner;
-using EF.RiotApi.Dto.Summoner.Runes;
+﻿using EF.RiotApi.Dto.Summoner.Runes;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EF.RiotApi.WebRequestResults
 {
