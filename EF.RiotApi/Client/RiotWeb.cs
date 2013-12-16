@@ -7,7 +7,7 @@ using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
-#if NET45 || NET451
+#if NET40 || NET45 || NET451
 using System.Threading.Tasks;
 #endif
 
@@ -89,6 +89,35 @@ namespace EF.RiotApi.Client
             }
             return result;
         }
+#else
+        /// <summary>
+        /// Retrieve all champions asynchronously
+        /// </summary>
+        /// <param name="region">The region of the leagues</param>
+        /// <param name="freeToPlay">Optional filter param to retrieve only free to play champions.</param>
+        /// <returns>Champion list task containing the result</returns>
+        public Task<ChampionsResult> GetChampionsAsync(string region = null, bool freeToPlay = false)
+        {
+            if (ApiCache.Instance.CachingEnabled && ApiCache.Instance.Champions.Count > 0)
+            {
+                return Task.Factory.StartNew(()=>
+                {
+                    return new ChampionsResult { Champions = ApiCache.Instance.Champions };
+                });
+            }
+
+            var result = Task.Factory.StartNew(() =>
+            {
+                return JsonWebRequest<ChampionsResult>.CreateRequest(RiotApiHelper.GetApiUri(api: "champion", freeToPlay: freeToPlay));
+            });
+
+            if (ApiCache.Instance.CachingEnabled)
+            {
+                ApiCache.Instance.Champions = result.Result.Champions;
+            }
+
+            return result;
+        }
 #endif
 
         /// <summary>
@@ -130,6 +159,21 @@ namespace EF.RiotApi.Client
             var result = await recentGamesResult;
             return result;
         }
+#else
+        /// <summary>
+        /// Get recent games by summoner ID
+        /// </summary>
+        /// <param name="summonerId">ID of the summoner for which to retrieve recent games.</param>
+        /// <param name="region">Region where to retrieve the data</param>
+        /// <returns>The Summoners Recent Games</returns>
+        public Task<RecentGamesResult> GetGamesBySummonerAsync(long summonerId, string region = null)
+        {
+            var result = Task.Factory.StartNew(() =>
+            {
+                return JsonWebRequest<RecentGamesResult>.CreateRequest(RiotApiHelper.GetApiUri(api: "game", region: region, summonerId: summonerId));
+            });
+            return result;
+        }
 #endif
 
         /// <summary>
@@ -159,6 +203,21 @@ namespace EF.RiotApi.Client
         {
             var recentGamesResult = JsonWebRequest<LeagueResult>.CreateRequestAsync(RiotApiHelper.GetApiUri(api:"league", region:region, summonerId:summonerId, version:"v2.1"));
             var result = await recentGamesResult;
+            return result;
+        }
+#else
+        /// <summary>
+        /// Retrieves leagues data for summoner asynchronously, including leagues for all of summoner's teams
+        /// </summary>
+        /// <param name="summonerId">Summoner ID</param>
+        /// <param name="region">The region of the leagues</param>
+        /// <returns>A dictonary with the key as league name, and the value the League DTO</returns>
+        public Task<LeagueResult> GetLeagueBySummonerAsync(long summonerId, string region = null)
+        {
+            var result = Task.Factory.StartNew(() =>
+            {
+                return JsonWebRequest<LeagueResult>.CreateRequest(RiotApiHelper.GetApiUri(api: "league", region: region, summonerId: summonerId, version: "v2.1"));
+            });
             return result;
         }
 #endif
@@ -191,6 +250,20 @@ namespace EF.RiotApi.Client
         {
             var recentGamesResult = JsonWebRequest<PlayerStatsSummaryResult>.CreateRequestAsync(RiotApiHelper.GetApiUri(api:"stats", region:region, summonerId:summonerId, season:season));
             var result = await recentGamesResult;
+            return result;
+        }
+#else
+        /// </summary>
+        /// <param name="summonerId">ID of the summoner for which to retrieve player stats.</param>
+        /// <param name="region">Region where to retrieve the data.</param>
+        /// <param name="season">If specified, stats for the given season are returned. Otherwise, stats for the current season are returned.</param>
+        /// <returns>Player stats summary result</returns>
+        public Task<PlayerStatsSummaryResult> GetPlayerStatsSummaryAsync(long summonerId, string region = null, string season = null)
+        {
+            var result = Task.Factory.StartNew(() =>
+            {
+                return JsonWebRequest<PlayerStatsSummaryResult>.CreateRequest(RiotApiHelper.GetApiUri(api: "stats", region: region, summonerId: summonerId, season: season));
+            });
             return result;
         }
 #endif
@@ -227,6 +300,21 @@ namespace EF.RiotApi.Client
             var result = await recentGamesResult;
             return result;
         }
+#else
+        /// <summary>
+        /// Get rune pages by summoner ID asynchronously
+        /// </summary>
+        /// <param name="summonerId">ID of the summoner for which to retrieve rune pages.</param>
+        /// <param name="region">Region where to retrieve the data.</param>
+        /// <returns>Task containing the rune pages result</returns>
+        public Task<RunePagesResult> GetSummonerRunesAsync(long summonerId, string region = null)
+        {
+            var result = Task.Factory.StartNew(() =>
+            {
+                return JsonWebRequest<RunePagesResult>.CreateRequest(RiotApiHelper.GetApiUri(api: "summoner", method: "runes", region: region, summonerId: summonerId));
+            });
+            return result;
+        }
 #endif
 
         /// <summary>
@@ -256,6 +344,21 @@ namespace EF.RiotApi.Client
         {
             var recentGamesResult = JsonWebRequest<MasterPagesResult>.CreateRequestAsync(RiotApiHelper.GetApiUri(api: "summoner", method: "masteries", region: region, summonerId: summonerId));
             var result = await recentGamesResult;
+            return result;
+        }
+#else
+        /// <summary>
+        /// Get mastery pages by summoner ID asynchronously
+        /// </summary>
+        /// <param name="summonerId">ID of the summoner for which to retrieve mastery pages.</param>
+        /// <param name="region">Region where to retrieve the data.</param>
+        /// <returns>The Mastery Pages</returns>
+        public Task<MasterPagesResult> GetSummonerMasteriesAsync(long summonerId, string region = null)
+        {
+            var result = Task.Factory.StartNew(() =>
+            {
+                return JsonWebRequest<MasterPagesResult>.CreateRequest(RiotApiHelper.GetApiUri(api: "summoner", method: "masteries", region: region, summonerId: summonerId));
+            });
             return result;
         }
 #endif
@@ -289,6 +392,21 @@ namespace EF.RiotApi.Client
             var result = await recentGamesResult;
             return result;
         }
+#else
+        /// <summary>
+        /// Get summoner by name asynchronously
+        /// </summary>
+        /// <param name="name">Name of summoner to retrieve.</param>
+        /// <param name="region">Region where to retrieve the data.</param>
+        /// <returns>A summoner task</returns>
+        public Task<SummonerDto> GetSummonerAsync(string name, string region = null)
+        {
+            var result = Task.Factory.StartNew(() =>
+            {
+                return JsonWebRequest<SummonerDto>.CreateRequest(RiotApiHelper.GetApiUri(api: "summoner", summonerName: name, region: region));
+            });
+            return result;
+        }
 #endif
 
         /// <summary>
@@ -317,6 +435,21 @@ namespace EF.RiotApi.Client
             var result = await recentGamesResult;
             return result;
         }
+#else
+        /// <summary>
+        /// Get summoner by summoner ID asynchronously
+        /// </summary>
+        /// <param name="summonerId">ID of the summoner to retrieve</param>
+        /// <param name="region">Region where to retrieve the data.</param>
+        /// <returns>A Summoner task</returns>
+        public Task<SummonerDto> GetSummonerAsync(long summonerId, string region = null)
+        {
+            var result = Task.Factory.StartNew(() =>
+            {
+                return JsonWebRequest<SummonerDto>.CreateRequest(RiotApiHelper.GetApiUri(api: "summoner", summonerId: summonerId, region: region));
+            });
+            return result;
+        }
 #endif
 
         /// <summary>
@@ -342,6 +475,21 @@ namespace EF.RiotApi.Client
         {
             var recentGamesResult = JsonWebRequest<SummonerNameListResult>.CreateRequestAsync(RiotApiHelper.GetApiUri(api: "summoner", method: "name", summonerIds: summonerIds, region: region));
             var result = await recentGamesResult;
+            return result;
+        }
+#else
+        /// <summary>
+        /// Get list of summoner names by summoner IDs asynchronously
+        /// </summary>
+        /// <param name="summonerIds">Comma-separated list of summoner IDs associated with summoner names to retrieve. Maximum allowed at once is 40.</param>
+        /// <param name="region">Region where to retrieve the data.</param>
+        /// <returns>The task containing a list of summoner name information </returns>
+        public Task<SummonerNameListResult> GetSummonersAsync(string summonerIds, string region = null)
+        {
+            var result = Task.Factory.StartNew(() =>
+            {
+                return JsonWebRequest<SummonerNameListResult>.CreateRequest(RiotApiHelper.GetApiUri(api: "summoner", method: "name", summonerIds: summonerIds, region: region));
+            });
             return result;
         }
 #endif
@@ -375,6 +523,21 @@ namespace EF.RiotApi.Client
         {
             var recentGamesResult = JsonWebRequest<TeamResult>.CreateRequestAsync(RiotApiHelper.GetApiUri(api: "team", version:"v2.1", region: region, summonerId: summonerId));
             var result = await recentGamesResult;
+            return result;
+        }
+#else
+        /// <summary>
+        /// Retrieves teams for given summoner ID aynchronously
+        /// </summary>
+        /// <param name="summonerId">ID of the summoner for which to retrieve player stats.</param>
+        /// <param name="region">Region where to retrieve the data.</param>
+        /// <returns>A task with the summoner teams in the result</returns>
+        public Task<TeamResult> GetSummonerTeamsAsync(long summonerId, string region = null)
+        {
+            var result = Task.Factory.StartNew(() =>
+            {
+                return JsonWebRequest<TeamResult>.CreateRequest(RiotApiHelper.GetApiUri(api: "team", version: "v2.1", region: region, summonerId: summonerId));
+            });
             return result;
         }
 #endif

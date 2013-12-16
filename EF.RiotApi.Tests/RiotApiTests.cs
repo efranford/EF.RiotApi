@@ -38,9 +38,10 @@ namespace EF.RiotApi.Tests
         }
 
         
-#if NET45 || NET451
+#if NET40 || NET45 || NET451
         [TestMethod]
         [TestCategory("Champion Api")]
+        [TestCategory("Async Tests")]
         public void TestGetChampionsAsync()
         {
             var getChampsResult = RiotWeb.API.GetChampionsAsync();
@@ -60,9 +61,10 @@ namespace EF.RiotApi.Tests
             Assert.IsTrue(getRecentGamesresult.Games.Count > 0);
         }
         
-#if NET45 || NET451
+#if NET40 || NET45 || NET451
         [TestMethod]
         [TestCategory("Game Api")]
+        [TestCategory("Async Tests")]
         public void TestGetRecentGamesAsync()
         {
             var getRecentGamesresult = RiotWeb.API.GetGamesBySummonerAsync(32144);
@@ -82,9 +84,10 @@ namespace EF.RiotApi.Tests
             Assert.IsTrue(getLeagues.Keys.Count > 0);
         }
         
-#if NET45 || NET451
+#if NET40 || NET45 || NET451
         [TestMethod]
         [TestCategory("League Api")]
+        [TestCategory("Async Tests")]
         public void TestGetLeaguesAsync()
         {
             var getLeagues = RiotWeb.API.GetLeagueBySummonerAsync(32144);
@@ -106,9 +109,10 @@ namespace EF.RiotApi.Tests
             Assert.IsTrue(getRecentGamesresult.PlayerStatSummaries.Count > 0);
         }
         
-#if NET45 || NET451
+#if NET40 || NET45 || NET451
         [TestMethod]
         [TestCategory("Stats Api")]
+        [TestCategory("Async Tests")]
         public void TestGetPlayerStatsSummaryAsync()
         {
             var getRecentGamesresult = RiotWeb.API.GetPlayerStatsSummaryAsync(32144);
@@ -129,9 +133,10 @@ namespace EF.RiotApi.Tests
             Assert.IsTrue(getSummonerRunes.Pages.Count > 0);
         }
         
-#if NET45 || NET451
+#if NET40 || NET45 || NET451
         [TestMethod]
         [TestCategory("Summoner Api")]
+        [TestCategory("Async Tests")]
         public void TestGetSummonerRunesAsync()
         {
             var getSummonerRunes = RiotWeb.API.GetSummonerRunesAsync(32144);
@@ -148,9 +153,10 @@ namespace EF.RiotApi.Tests
             Assert.IsTrue(getSummonerMasteries.Pages.Count > 0);
         }
         
-#if NET45 || NET451
+#if NET40 || NET45 || NET451
         [TestMethod]
         [TestCategory("Summoner Api")]
+        [TestCategory("Async Tests")]
         public void TestGetSummonerMasteriesAsync()
         {
             var getSummonerMasteries = RiotWeb.API.GetSummonerMasteriesAsync(32144);
@@ -167,9 +173,10 @@ namespace EF.RiotApi.Tests
             Assert.IsTrue(getSummoner.Name == "Dome");
         }
         
-#if NET45 || NET451
+#if NET40 || NET45 || NET451
         [TestMethod]
         [TestCategory("Summoner Api")]
+        [TestCategory("Async Tests")]
         public void TestGetSummonerByIdAsync()
         {
             var getSummoner = RiotWeb.API.GetSummonerAsync(32144);
@@ -186,9 +193,10 @@ namespace EF.RiotApi.Tests
             Assert.IsTrue(getSummoner.Id == 32144);
         }
         
-#if NET45 || NET451
+#if NET40 || NET45 || NET451
         [TestMethod]
         [TestCategory("Summoner Api")]
+        [TestCategory("Async Tests")]
         public void TestGetSummonerByNameAsync()
         {
             var getSummoner = RiotWeb.API.GetSummonerAsync("Dome");
@@ -210,9 +218,10 @@ namespace EF.RiotApi.Tests
             });
         }
         
-#if NET45 || NET451
+#if NET40 || NET45 || NET451
         [TestMethod]
         [TestCategory("Summoner Api")]
+        [TestCategory("Async Tests")]
         public void TestGetSummonersAsync()
         {
             var ids = "32144,32145,32146";
@@ -238,9 +247,10 @@ namespace EF.RiotApi.Tests
             Assert.IsTrue(getTeams.Count > 0);
          }
         
-#if NET45 || NET451
+#if NET40 || NET45 || NET451
         [TestMethod]
         [TestCategory("Team Api")]
+        [TestCategory("Async Tests")]
         public void GetTeamsBySummonerAsync()
         {
             var getTeams = RiotWeb.API.GetSummonerTeamsAsync(32144);

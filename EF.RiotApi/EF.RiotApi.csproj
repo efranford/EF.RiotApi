@@ -19,7 +19,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;NET451</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
@@ -27,7 +27,7 @@
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
+    <DefineConstants>TRACE;NET451</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Caching\ApiCache.cs" />
+    <Compile Include="Client\JsonWebRequest.cs" />
     <Compile Include="Dto\Stats\AggregatedStatDto.cs" />
     <Compile Include="Dto\Game\GameDto.cs" />
     <Compile Include="Dto\League\LeagueDto.cs" />
@@ -75,7 +76,6 @@
     <Compile Include="WebRequestResults\MasterPagesResult.cs" />
     <Compile Include="WebRequestResults\PlayerStatsSummaryResult.cs" />
     <Compile Include="WebRequestResults\RecentGamesResult.cs" />
-    <Compile Include="Dto\JsonWebRequest.cs" />
     <Compile Include="Dto\Champion\ChampionDto.cs" />
     <Compile Include="WebRequestResults\ChampionsResult.cs" />
     <Compile Include="Client\RiotWeb.cs" />

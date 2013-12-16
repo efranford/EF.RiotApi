@@ -59,12 +59,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\EF.RiotAPI\EF.RiotApi.csproj">
-      <Project>{495e95ab-66c8-411c-a740-d8cc31067f21}</Project>
-      <Name>EF.RiotApi</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="app.config" />
     <None Include="GetSummonerRunes.json" />
     <None Include="LeagueResult.json" />
@@ -76,6 +70,12 @@
     <None Include="GetChampionsResult.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EF.RiotApi\EF.RiotApi.csproj">
+      <Project>{495e95ab-66c8-411c-a740-d8cc31067f21}</Project>
+      <Name>EF.RiotApi</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
