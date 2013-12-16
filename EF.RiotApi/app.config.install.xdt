@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <appSettings>
+    <add key="ApiKey" value="[YOUR KEY HERE]"/>
+    <add key="ApiUrl" value="https://prod.api.pvp.net/api/lol" />
+    <add key="ApiRegion" value="na" />
+    <add key="ApiVerision" value="v1.1" />
+    <add key="CachingEnabled" value="true" />
+  </appSettings>
+</configuration>

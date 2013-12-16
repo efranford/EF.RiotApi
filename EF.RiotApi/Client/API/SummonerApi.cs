@@ -1,8 +1,8 @@
 ﻿using System;
 using EF.RiotApi.WebRequestResults;
+using EF.RiotApi.Dto.Summoner;
 #if NET40 || NET45 || NET451
 using System.Threading.Tasks;
-using EF.RiotApi.Dto.Summoner;
 #elif NET35
 using System.Threading.Tasks;
 #endif

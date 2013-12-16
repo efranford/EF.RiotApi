@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Configuration;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EF.RiotApi.Helpers
 {
@@ -16,7 +12,7 @@ namespace EF.RiotApi.Helpers
             {
                 if (string.IsNullOrEmpty(valueIfNull))
                 {
-                    throw new Exception(string.Format("You must specify a value for {0} in your app/web.config file.", key), new KeyNotFoundException(key));
+                    throw new Exception(string.Format("You must specify a value for {0} in your app/web.config file.", key));
                 }
                 else
                 {

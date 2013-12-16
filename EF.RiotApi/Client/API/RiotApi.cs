@@ -1,9 +1,5 @@
-﻿using EF.RiotApi.Helpers;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
+using EF.RiotApi.Helpers;
 
 namespace EF.RiotApi.Client.API
 {

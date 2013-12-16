@@ -13,23 +13,26 @@
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
+    <DocumentationFile>bin\Debug\NET35\EF.RiotApi.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>bin\Debug\NET35</OutputPath>
     <DefineConstants>DEBUG;TRACE;NET35</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\NET35\EF.RiotApi.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
+    <OutputPath>bin\Release\NET35</OutputPath>
     <DefineConstants>TRACE;NET35</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\NET35\EF.RiotApi.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
@@ -49,6 +52,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Caching\ApiCache.cs" />
+    <Compile Include="Client\API\ChampionApi.cs" />
+    <Compile Include="Client\API\GameApi.cs" />
+    <Compile Include="Client\API\LeagueApi.cs" />
+    <Compile Include="Client\API\RiotApi.cs" />
+    <Compile Include="Client\API\StatsApi.cs" />
+    <Compile Include="Client\API\SummonerApi.cs" />
+    <Compile Include="Client\API\TeamApi.cs" />
     <Compile Include="Client\JsonWebRequest.cs" />
     <Compile Include="Dto\Stats\AggregatedStatDto.cs" />
     <Compile Include="Dto\Game\GameDto.cs" />
@@ -74,7 +84,7 @@
     <Compile Include="Dto\Team\TeamMemberInfoDto.cs" />
     <Compile Include="Dto\Team\TeamStatDetailDto.cs" />
     <Compile Include="Dto\Team\TeamStatSummaryDto.cs" />
-    <Compile Include="Helpers\RiotApiHelper.cs" />
+    <Compile Include="Helpers\ConfigurationHelper.cs" />
     <Compile Include="WebRequestResults\LeagueResult.cs" />
     <Compile Include="WebRequestResults\MasterPagesResult.cs" />
     <Compile Include="WebRequestResults\PlayerStatsSummaryResult.cs" />
