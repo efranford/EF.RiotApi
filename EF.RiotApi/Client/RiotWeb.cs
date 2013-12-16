@@ -6,7 +6,6 @@ using EF.RiotApi.WebRequestResults;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
-using System.Configuration;
 #if NET40 || NET45 || NET451
 using System.Threading.Tasks;
 #elif NET35
@@ -42,10 +41,10 @@ namespace EF.RiotApi.Client
 
         private RiotWeb()
         {
-            ApiKey = ConfigurationManager.AppSettings["ApiKey"];
-            ApiUrl = ConfigurationManager.AppSettings["ApiUrl"];
-            ApiRegion = ConfigurationManager.AppSettings["ApiRegion"];
-            ApiVerision = ConfigurationManager.AppSettings["ApiVerision"];
+            ApiKey = ConfigurationHelper.GetConfigurationValue("ApiKey", null);
+            ApiUrl = ConfigurationHelper.GetConfigurationValue("ApiUrl", "https://prod.api.pvp.net/api/lol");
+            ApiRegion = ConfigurationHelper.GetConfigurationValue("ApiRegion", "na");
+            ApiVerision = ConfigurationHelper.GetConfigurationValue("ApiVerision", "v1.1");
         }
 
         #endregion

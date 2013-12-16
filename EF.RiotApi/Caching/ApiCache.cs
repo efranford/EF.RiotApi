@@ -1,8 +1,8 @@
 ﻿using EF.RiotApi.Dto;
 using EF.RiotApi.Dto.Champion;
+using EF.RiotApi.Helpers;
 using System;
 using System.Collections.Generic;
-using System.Configuration;
 
 namespace EF.RiotApi.Caching
 {
@@ -33,7 +33,7 @@ namespace EF.RiotApi.Caching
 
         private ApiCache ()
         {
-            CachingEnabled = ConfigurationManager.AppSettings["CachingEnabled"] == "true" ? true : false;
+            CachingEnabled = ConfigurationHelper.GetConfigurationValue("CachingEnabled", "false") == "true" ? true : false;
             Champions = new List<ChampionDto>();
         }
 
