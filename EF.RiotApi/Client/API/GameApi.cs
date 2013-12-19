@@ -2,6 +2,7 @@
 using EF.RiotApi.WebRequestResults;
 #if NET40 || NET45 || NET451
 using System.Threading.Tasks;
+using EF.RiotApi.Caching;
 #elif NET35
 using System.Threading.Tasks;
 #endif
@@ -52,11 +53,27 @@ namespace EF.RiotApi.Client.API
         /// </summary>
         /// <param name="summonerId">ID of the summoner for which to retrieve recent games.</param>
         /// <param name="region">Region where to retrieve the data</param>
+        /// <param name="force">Force the cache to update (pull new games)</param>
         /// <returns>The Summoners Recent Games</returns>
-        public async Task<RecentGamesResult> GetGamesBySummonerAsync(long summonerId, string region = null)
+        public async Task<RecentGamesResult> GetGamesBySummonerAsync(long summonerId, string region = null, bool force = true)
         {
+            if(ApiCache.Instance.CachingEnabled && ApiCache.Instance.RecentGames.Count > 0 && !force)
+            {
+                return new RecentGamesResult { Games = ApiCache.Instance.GetRecentSummonerGames(summonerId), SummonerId = summonerId };
+            }
             var recentGamesResult = JsonWebRequest<RecentGamesResult>.CreateRequestAsync(GetApiUri(api: "game", region: region, summonerId: summonerId));
             var result = await recentGamesResult;
+            if (ApiCache.Instance.CachingEnabled)
+            {
+                await recentGamesResult.ContinueWith((token) =>
+                {
+                    result.Games.ForEach(game=>
+                        {
+                            ApiCache.Instance.UpdateGames(game);
+                        });
+                    
+                });
+            }
             return result;
         }
 #elif NET35 || NET40
