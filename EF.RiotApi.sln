@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF.RiotApi", "EF.RiotApi\EF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF.RiotApi.Tests", "EF.RiotApi.Tests\EF.RiotApi.Tests.csproj", "{14A45194-A8FA-4B34-B80E-FF99D92F4FBC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF.RiotApi.Examples", "EF.RiotApi.Examples\EF.RiotApi.Examples.csproj", "{250E55B1-D489-4E8B-8308-FCC06094FD97}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{14A45194-A8FA-4B34-B80E-FF99D92F4FBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14A45194-A8FA-4B34-B80E-FF99D92F4FBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14A45194-A8FA-4B34-B80E-FF99D92F4FBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{250E55B1-D489-4E8B-8308-FCC06094FD97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{250E55B1-D489-4E8B-8308-FCC06094FD97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{250E55B1-D489-4E8B-8308-FCC06094FD97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{250E55B1-D489-4E8B-8308-FCC06094FD97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
