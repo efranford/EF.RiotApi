@@ -68,6 +68,7 @@
     <Compile Include="Dto\Stats\PlayerStatsSummaryDto.cs" />
     <Compile Include="Dto\Game\RawStatDto.cs" />
     <Compile Include="Dto\Game\RecentGamesDto.cs" />
+    <Compile Include="Dto\Stats\Types\Stat.cs" />
     <Compile Include="Dto\Summoner\Masteries\MasteryPageDto.cs" />
     <Compile Include="Dto\Summoner\Masteries\TalentDto.cs" />
     <Compile Include="Dto\Summoner\Runes\RuneDto.cs" />

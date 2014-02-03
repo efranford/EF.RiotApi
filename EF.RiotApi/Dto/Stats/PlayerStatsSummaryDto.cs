@@ -45,7 +45,7 @@ namespace EF.RiotApi.Dto.Stats
         /// RankedTeam3x3
         /// RankedTeam5x5
         /// Unranked
-        /// Unranked3x3)
+        /// Unranked3x3
         /// </summary>
         [JsonProperty("playerStatSummaryType")]
         public string PlayerStatSummaryType { get; set; }
