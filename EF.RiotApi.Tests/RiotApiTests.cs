@@ -2,6 +2,8 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 using EF.RiotApi.Client;
+using EF.RiotApi.Extensions;
+using EF.RiotApi.Dto.League.Types;
 
 namespace EF.RiotApi.Tests
 {
@@ -88,6 +90,46 @@ namespace EF.RiotApi.Tests
             Assert.IsTrue(result.Keys.Count > 0);
         }
 #endif
+
+#if NET35 || NET40 || NET45 || NET451
+        [TestMethod]
+        [TestCategory("League Api")]
+        [TestCategory("Async Tests")]
+        public void TestGetSoloQExtension()
+        {
+            var getLeagues = RiotWeb.API.League.GetLeagueBySummonerAsync(32144);
+            var result = getLeagues.Result;
+            var soloq = result.GetSoloQLeagueInfo();
+            Assert.IsTrue(soloq.Tier == Tier.SILVER.ToString());
+        }
+#endif
+
+#if NET35 || NET40 || NET45 || NET451
+        [TestMethod]
+        [TestCategory("League Api")]
+        [TestCategory("Async Tests")]
+        public void TestGet3v3Extension()
+        {
+            var getLeagues = RiotWeb.API.League.GetLeagueBySummonerAsync(32144);
+            var result = getLeagues.Result;
+            var threeVThree = result.Get3v3LeagueInfo();
+            Assert.IsTrue(threeVThree.Count == 0);
+        }
+#endif
+
+#if NET35 || NET40 || NET45 || NET451
+        [TestMethod]
+        [TestCategory("League Api")]
+        [TestCategory("Async Tests")]
+        public void TestGet5v5Extension()
+        {
+            var getLeagues = RiotWeb.API.League.GetLeagueBySummonerAsync(32144);
+            var result = getLeagues.Result;
+            var fiveVFive = result.Get5v5LeagueInfo();
+            Assert.IsTrue(fiveVFive.Count == 0);
+        }
+#endif
+
 
 
         #endregion
